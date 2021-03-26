@@ -8,7 +8,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1279852544</RegVer>
+      <RegVer>1280032768</RegVer>
       <EditorPersist>
        <EditorPersist>
         <__.0>
@@ -21,12 +21,60 @@
         </__.0>
         <__.1>
          <BookmarkList></BookmarkList>
+         <CaretPos>3509</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\stm32l0xx_it.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>93</ScrollPos>
+        </__.1>
+        <__.2>
+         <BookmarkList></BookmarkList>
          <CaretPos>2752</CaretPos>
          <Encoding>2</Encoding>
          <FileName>D:\gitHub\Wireless_accelerometer\Transmiter\STM32CubeIDE\Core\Src\main.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>80</ScrollPos>
-        </__.1>
+        </__.2>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>16633</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>540</ScrollPos>
+        </__.3>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2554</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Startup\startup_stm32l010rbtx.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>48</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>10481</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>270</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3226</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>67</ScrollPos>
+        </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
+         <CaretPos>58916</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>1249</ScrollPos>
+        </__.7>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -40,7 +88,7 @@
       <VersionLow>1</VersionLow>
      </REG_HEADER>
      <REG_ROOT>
-      <RegVer>1279852544</RegVer>
+      <RegVer>1280032768</RegVer>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -53,7 +101,7 @@
    </REG_HEADER>
    <REG_ROOT>
     <HServer>HASYST</HServer>
-    <RegVer>1279852544</RegVer>
+    <RegVer>1280032768</RegVer>
     <Cfg_System>
     </Cfg_System>
     <Desktop>
@@ -78,6 +126,38 @@
        <RectPosTop>20</RectPosTop>
        <RelativeFileName>..\STM32CubeIDE\Core\Startup\startup_stm32l010rbtx.s</RelativeFileName>
       </Editor.1>
+      <Editor.2>
+       <FileBarIndex>2</FileBarIndex>
+       <RectPosBottom>330</RectPosBottom>
+       <RectPosLeft>60</RectPosLeft>
+       <RectPosRight>360</RectPosRight>
+       <RectPosTop>30</RectPosTop>
+       <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativeFileName>
+      </Editor.2>
+      <Editor.3>
+       <FileBarIndex>3</FileBarIndex>
+       <RectPosBottom>340</RectPosBottom>
+       <RectPosLeft>80</RectPosLeft>
+       <RectPosRight>380</RectPosRight>
+       <RectPosTop>40</RectPosTop>
+       <RelativeFileName>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativeFileName>
+      </Editor.3>
+      <Editor.4>
+       <FileBarIndex>4</FileBarIndex>
+       <RectPosBottom>350</RectPosBottom>
+       <RectPosLeft>100</RectPosLeft>
+       <RectPosRight>400</RectPosRight>
+       <RectPosTop>50</RectPosTop>
+       <RelativeFileName>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativeFileName>
+      </Editor.4>
+      <Editor.5>
+       <FileBarIndex>5</FileBarIndex>
+       <RectPosBottom>360</RectPosBottom>
+       <RectPosLeft>120</RectPosLeft>
+       <RectPosRight>420</RectPosRight>
+       <RectPosTop>60</RectPosTop>
+       <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativeFileName>
+      </Editor.5>
       <EditorHistoryFile.0>
        <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\gcode.h</RelativeFileName>
       </EditorHistoryFile.0>
@@ -155,13 +235,25 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
-        <ViewType>Project</ViewType>
+        <ViewId>106</ViewId>
+        <ViewType>SFR</ViewType>
        </__.0>
        <__.1>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
        </__.1>
+       <__.10>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>108</ViewId>
+        <ViewType>Document</ViewType>
+       </__.11>
+       <__.12>
+        <ViewId>109</ViewId>
+        <ViewType>Document</ViewType>
+       </__.12>
        <__.2>
         <ViewId>4</ViewId>
         <ViewType>This</ViewType>
@@ -171,25 +263,29 @@
         <ViewType>CustomWatch</ViewType>
        </__.3>
        <__.4>
-        <ViewId>2</ViewId>
-        <ViewType>Output</ViewType>
+        <ViewId>103</ViewId>
+        <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>102</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>104</ViewId>
+        <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>105</ViewId>
+        <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>103</ViewId>
+        <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>104</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>2</ViewId>
+        <ViewType>Output</ViewType>
        </__.8>
+       <__.9>
+        <ViewId>102</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.9>
       </AllViewBaseData>
       <DocumentViews>
        <__.0>
@@ -202,6 +298,26 @@
         <ViewId>104</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
+       <__.2>
+        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativePath>
+        <ViewId>105</ViewId>
+        <ViewType>Document</ViewType>
+       </__.2>
+       <__.3>
+        <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativePath>
+        <ViewId>107</ViewId>
+        <ViewType>Document</ViewType>
+       </__.3>
+       <__.4>
+        <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativePath>
+        <ViewId>108</ViewId>
+        <ViewType>Document</ViewType>
+       </__.4>
+       <__.5>
+        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativePath>
+        <ViewId>109</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
       </DocumentViews>
       <OtherViews>
        <__.0>
@@ -245,10 +361,10 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
-         <ReorderItems>FALSE</ReorderItems>
+         <ReorderItems>false</ReorderItems>
          <SelectedItems></SelectedItems>
          <RootItem>
           <Name></Name>
@@ -263,6 +379,118 @@
         </TreeState>
        </__.0>
       </ProjectViews>
+      <SfrViews>
+       <__.0>
+        <CustomSfrName></CustomSfrName>
+        <IsCustomSfr>false</IsCustomSfr>
+        <RealTimeUpdate>false</RealTimeUpdate>
+        <ViewId>106</ViewId>
+        <ViewType>SFR</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>200</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems></SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>Cortex-M0,STM32L010xB</Name>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>General Purpose Registers</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>Cortex-M0 Core Registers</Name>
+                <Options>1</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>IPSR Interrupt PSR</Name>
+                  <Options>1</Options>
+                 </__.0>
+                </ChildItems>
+               </__.0>
+              </ChildItems>
+             </__.0>
+             <__.1>
+              <Name>NVIC</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>IPR5</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.1>
+             <__.2>
+              <Name>MPU</Name>
+              <Options>4</Options>
+             </__.2>
+             <__.3>
+              <Name>SCB</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>CPUID</Name>
+                <Options>4</Options>
+               </__.0>
+               <__.1>
+                <Name>ICSR</Name>
+                <Options>1</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>VECTACTIVE</Name>
+                  <Options>4</Options>
+                 </__.0>
+                </ChildItems>
+               </__.1>
+               <__.2>
+                <Name>SHPR3</Name>
+                <Options>1</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>PRI_14</Name>
+                  <Options>4</Options>
+                 </__.0>
+                </ChildItems>
+               </__.2>
+              </ChildItems>
+             </__.3>
+            </ChildItems>
+           </__.0>
+          </ChildItems>
+         </RootItem>
+        </TreeState>
+       </__.0>
+      </SfrViews>
       <VariableViews>
        <__.0>
         <ViewId>3</ViewId>
@@ -270,22 +498,27 @@
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>180</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.2>
          <__.3>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>140</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>98</Width>
          </__.4>
         </ColumnData>
@@ -296,22 +529,27 @@
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>180</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.2>
          <__.3>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>140</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>98</Width>
          </__.4>
         </ColumnData>
@@ -325,23 +563,28 @@
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
-          <Width>180</Width>
+          <Visible>true</Visible>
+          <Width>146</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
-          <Width>80</Width>
+          <Visible>true</Visible>
+          <Width>98</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
-          <Width>80</Width>
+          <Visible>true</Visible>
+          <Width>121</Width>
          </__.2>
          <__.3>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>140</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
-          <Width>97</Width>
+          <Visible>true</Visible>
+          <Width>72</Width>
          </__.4>
         </ColumnData>
         <WatchData>
@@ -361,10 +604,206 @@
           <InitScript></InitScript>
          </PaneMiscData.3>
          <VariableData>
-          <IsRealTimeEnabled>false</IsRealTimeEnabled>
+          <IsRealTimeEnabled>true</IsRealTimeEnabled>
+          <Variables>
+           <__.0>
+            <Name>RxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.0>
+           <__.1>
+            <Name>TxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>test</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>tmp_package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.3>
+           <__.4>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>accx</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>accy</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>accz</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+          </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
+          <Variables>
+           <__.0>
+            <Name>RxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.0>
+           <__.1>
+            <Name>TxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>test</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>tmp_package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.3>
+           <__.4>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>accx</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>accy</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>accz</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+          </Variables>
          </WatchPaneData.0>
          <WatchPaneData.1>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
@@ -380,17 +819,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>50</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>103</FocusedViewId>
+        <FocusedViewId>104</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1048</Bottom>
-         <Left>-8</Left>
-         <Right>1928</Right>
-         <Top>-8</Top>
+         <Bottom>868</Bottom>
+         <Left>2020</Left>
+         <Right>3044</Right>
+         <Top>100</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -413,45 +852,23 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.25</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
+             <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>0</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>0</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>1</ViewId>
-              </__.1>
-             </Children>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>1</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.75</Extent>
+             <Extent>0.375</Extent>
              <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>103</TopTabViewId>
+             <TopTabViewId>104</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -474,8 +891,58 @@
                <TopTabViewId>-1</TopTabViewId>
                <ViewId>104</ViewId>
               </__.1>
+              <__.2>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>105</ViewId>
+              </__.2>
+              <__.3>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>107</ViewId>
+              </__.3>
+              <__.4>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>108</ViewId>
+              </__.4>
+              <__.5>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>109</ViewId>
+              </__.5>
              </Children>
             </__.1>
+            <__.2>
+             <DockType>View</DockType>
+             <Extent>0.375</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>106</ViewId>
+            </__.2>
            </Children>
           </__.0>
           <__.1>
@@ -607,13 +1074,25 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
-        <ViewType>Project</ViewType>
+        <ViewId>106</ViewId>
+        <ViewType>SFR</ViewType>
        </__.0>
        <__.1>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
        </__.1>
+       <__.10>
+        <ViewId>1</ViewId>
+        <ViewType>Symbols</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>108</ViewId>
+        <ViewType>Document</ViewType>
+       </__.11>
+       <__.12>
+        <ViewId>109</ViewId>
+        <ViewType>Document</ViewType>
+       </__.12>
        <__.2>
         <ViewId>4</ViewId>
         <ViewType>This</ViewType>
@@ -623,25 +1102,29 @@
         <ViewType>CustomWatch</ViewType>
        </__.3>
        <__.4>
-        <ViewId>2</ViewId>
-        <ViewType>Output</ViewType>
+        <ViewId>103</ViewId>
+        <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>102</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>104</ViewId>
+        <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>1</ViewId>
-        <ViewType>Symbols</ViewType>
+        <ViewId>105</ViewId>
+        <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>103</ViewId>
+        <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>104</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>2</ViewId>
+        <ViewType>Output</ViewType>
        </__.8>
+       <__.9>
+        <ViewId>102</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.9>
       </AllViewBaseData>
       <DocumentViews>
        <__.0>
@@ -654,6 +1137,26 @@
         <ViewId>104</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
+       <__.2>
+        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativePath>
+        <ViewId>105</ViewId>
+        <ViewType>Document</ViewType>
+       </__.2>
+       <__.3>
+        <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativePath>
+        <ViewId>107</ViewId>
+        <ViewType>Document</ViewType>
+       </__.3>
+       <__.4>
+        <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativePath>
+        <ViewId>108</ViewId>
+        <ViewType>Document</ViewType>
+       </__.4>
+       <__.5>
+        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativePath>
+        <ViewId>109</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
       </DocumentViews>
       <OtherViews>
        <__.0>
@@ -697,10 +1200,10 @@
       </OutputViews>
       <ProjectViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>Project</ViewType>
         <TreeState>
-         <ReorderItems>FALSE</ReorderItems>
+         <ReorderItems>false</ReorderItems>
          <SelectedItems></SelectedItems>
          <RootItem>
           <Name></Name>
@@ -715,6 +1218,118 @@
         </TreeState>
        </__.0>
       </ProjectViews>
+      <SfrViews>
+       <__.0>
+        <CustomSfrName></CustomSfrName>
+        <IsCustomSfr>false</IsCustomSfr>
+        <RealTimeUpdate>false</RealTimeUpdate>
+        <ViewId>106</ViewId>
+        <ViewType>SFR</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>200</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems></SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>Cortex-M0,STM32L010xB</Name>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>General Purpose Registers</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>Cortex-M0 Core Registers</Name>
+                <Options>1</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>IPSR Interrupt PSR</Name>
+                  <Options>1</Options>
+                 </__.0>
+                </ChildItems>
+               </__.0>
+              </ChildItems>
+             </__.0>
+             <__.1>
+              <Name>NVIC</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>IPR5</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.1>
+             <__.2>
+              <Name>MPU</Name>
+              <Options>4</Options>
+             </__.2>
+             <__.3>
+              <Name>SCB</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>CPUID</Name>
+                <Options>4</Options>
+               </__.0>
+               <__.1>
+                <Name>ICSR</Name>
+                <Options>1</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>VECTACTIVE</Name>
+                  <Options>4</Options>
+                 </__.0>
+                </ChildItems>
+               </__.1>
+               <__.2>
+                <Name>SHPR3</Name>
+                <Options>1</Options>
+                <ChildItems>
+                 <__.0>
+                  <Name>PRI_14</Name>
+                  <Options>4</Options>
+                 </__.0>
+                </ChildItems>
+               </__.2>
+              </ChildItems>
+             </__.3>
+            </ChildItems>
+           </__.0>
+          </ChildItems>
+         </RootItem>
+        </TreeState>
+       </__.0>
+      </SfrViews>
       <VariableViews>
        <__.0>
         <ViewId>3</ViewId>
@@ -722,22 +1337,27 @@
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>180</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.2>
          <__.3>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>140</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>98</Width>
          </__.4>
         </ColumnData>
@@ -748,22 +1368,27 @@
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>180</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>80</Width>
          </__.2>
          <__.3>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>140</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>98</Width>
          </__.4>
         </ColumnData>
@@ -777,23 +1402,28 @@
         <ColumnData>
          <__.0>
           <Pos>0</Pos>
-          <Width>180</Width>
+          <Visible>true</Visible>
+          <Width>146</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
-          <Width>80</Width>
+          <Visible>true</Visible>
+          <Width>98</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
-          <Width>80</Width>
+          <Visible>true</Visible>
+          <Width>121</Width>
          </__.2>
          <__.3>
           <Pos>0</Pos>
+          <Visible>true</Visible>
           <Width>140</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
-          <Width>97</Width>
+          <Visible>true</Visible>
+          <Width>72</Width>
          </__.4>
         </ColumnData>
         <WatchData>
@@ -813,10 +1443,206 @@
           <InitScript></InitScript>
          </PaneMiscData.3>
          <VariableData>
-          <IsRealTimeEnabled>false</IsRealTimeEnabled>
+          <IsRealTimeEnabled>true</IsRealTimeEnabled>
+          <Variables>
+           <__.0>
+            <Name>RxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.0>
+           <__.1>
+            <Name>TxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>test</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>tmp_package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.3>
+           <__.4>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>accx</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>accy</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>accz</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+          </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
+          <Variables>
+           <__.0>
+            <Name>RxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.0>
+           <__.1>
+            <Name>TxSPI</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>test</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>tmp_package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.3>
+           <__.4>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>accx</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>accy</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>accz</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+          </Variables>
          </WatchPaneData.0>
          <WatchPaneData.1>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
@@ -832,17 +1658,17 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>50</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>103</FocusedViewId>
+        <FocusedViewId>104</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1048</Bottom>
-         <Left>-8</Left>
-         <Right>1928</Right>
-         <Top>-8</Top>
+         <Bottom>868</Bottom>
+         <Left>2020</Left>
+         <Right>3044</Right>
+         <Top>100</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -865,45 +1691,23 @@
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
+             <DockType>View</DockType>
              <Extent>0.25</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
+             <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>0</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>0</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>1</ViewId>
-              </__.1>
-             </Children>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>1</ViewId>
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.75</Extent>
+             <Extent>0.375</Extent>
              <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>103</TopTabViewId>
+             <TopTabViewId>104</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -926,8 +1730,58 @@
                <TopTabViewId>-1</TopTabViewId>
                <ViewId>104</ViewId>
               </__.1>
+              <__.2>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>105</ViewId>
+              </__.2>
+              <__.3>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>107</ViewId>
+              </__.3>
+              <__.4>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>108</ViewId>
+              </__.4>
+              <__.5>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>109</ViewId>
+              </__.5>
              </Children>
             </__.1>
+            <__.2>
+             <DockType>View</DockType>
+             <Extent>0.375</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>106</ViewId>
+            </__.2>
            </Children>
           </__.0>
           <__.1>
@@ -1027,33 +1881,20 @@
       <Fetch>
        <Beep>True</Beep>
        <DisplayMessage>True</DisplayMessage>
-       <BP.0>
-        <__>
-         <ActionEnabled>False</ActionEnabled>
-         <ActionScript></ActionScript>
-         <ActionScriptParams></ActionScriptParams>
-         <ActionShow>False</ActionShow>
-         <Active>True</Active>
-         <Condition></Condition>
-         <Condition_Count>0</Condition_Count>
-         <ConditionEnabled>False</ConditionEnabled>
-         <Name>&quot;..\STM32CubeIDE\Core\Src\main.c&quot;::100</Name>
-        </__>
-       </BP.0>
       </Fetch>
      </Breakpoints>
      <Debug>
       <Debugging>
-       <Ambiguity>1</Ambiguity>
-       <DisableBPs>0</DisableBPs>
-       <DisableIRQ_RunUntil>0</DisableIRQ_RunUntil>
-       <DisableIRQ_RunUntilReturn>1</DisableIRQ_RunUntilReturn>
-       <DisableIRQ_Step>1</DisableIRQ_Step>
-       <DisableIRQ_StepOver>1</DisableIRQ_StepOver>
-       <OnlyOneBPPerSourceLine>1</OnlyOneBPPerSourceLine>
-       <ReevaluateBPsAfterNewPartition>0</ReevaluateBPsAfterNewPartition>
-       <ReserveBP>1</ReserveBP>
-       <ResetConditionalBPCountWhenStop>0</ResetConditionalBPCountWhenStop>
+       <Ambiguity>Use Lowest</Ambiguity>
+       <DisableBPs>None</DisableBPs>
+       <DisableIRQ_RunUntil>false</DisableIRQ_RunUntil>
+       <DisableIRQ_RunUntilReturn>true</DisableIRQ_RunUntilReturn>
+       <DisableIRQ_Step>true</DisableIRQ_Step>
+       <DisableIRQ_StepOver>true</DisableIRQ_StepOver>
+       <OnlyOneBPPerSourceLine>true</OnlyOneBPPerSourceLine>
+       <ReevaluateBPsAfterNewPartition>false</ReevaluateBPsAfterNewPartition>
+       <ReserveBP>true</ReserveBP>
+       <ResetConditionalBPCountWhenStop>false</ResetConditionalBPCountWhenStop>
       </Debugging>
       <Directories>
        <ConvertPath>0</ConvertPath>
@@ -1062,36 +1903,32 @@
       </Directories>
       <Download>
        <DefaultFile>0</DefaultFile>
-       <UseRealTimeWrite>0</UseRealTimeWrite>
        <File.0>
         <AnalyzeCodeOutsideFunctions>1</AnalyzeCodeOutsideFunctions>
-        <Area></Area>
-        <CoreIndex>0</CoreIndex>
         <Flags>3</Flags>
         <Load>1</Load>
+        <LoadArea>Virtual</LoadArea>
         <LoadCode>1</LoadCode>
         <LoadSymbols>1</LoadSymbols>
-        <MemoryArea>0</MemoryArea>
         <Offset>0</Offset>
         <OffsetA type="B">AAAAAAAAAAAAAAAA</OffsetA>
         <OptimizeTypeByName>0</OptimizeTypeByName>
         <OverrideMemoryArea>0</OverrideMemoryArea>
         <Path>..\STM32CubeIDE\Debug\STM32CubeIDE.elf</Path>
-        <ProjectOutputFile>0</ProjectOutputFile>
         <SOffset>0</SOffset>
         <SOffsetA type="B">AAAAAAAAAAAAAAAA</SOffsetA>
         <TargetRelative>False</TargetRelative>
         <TrustLineSymbolsToStartOnInstruction>1</TrustLineSymbolsToStartOnInstruction>
         <Type>28</Type>
-        <UseDefaultCore>1</UseDefaultCore>
         <UseDefaultMSID>1</UseDefaultMSID>
         <MSID>
-         <App></App>
+         <App>0x0</App>
          <bAppID>false</bAppID>
          <bVMID>false</bVMID>
          <Level>Sys</Level>
          <Secure>false</Secure>
-         <VM></VM>
+         <Use>false</Use>
+         <VM>0x0</VM>
         </MSID>
         <Options>
          <BitfieldsOverrideTypeFromByteSize>0</BitfieldsOverrideTypeFromByteSize>
@@ -1112,15 +1949,15 @@
          <ReverseBitFields>0</ReverseBitFields>
          <UseSymbolTableForVariablesWithNoLocation>1</UseSymbolTableForVariablesWithNoLocation>
          <Cosmic>
-          <nowidden>FALSE</nowidden>
-          <sprec>FALSE</sprec>
+          <nowidden>false</nowidden>
+          <sprec>false</sprec>
          </Cosmic>
         </Options>
         <PreProc>
          <Analyze>none</Analyze>
          <CommandLine></CommandLine>
-         <UseProjectDefines>FALSE</UseProjectDefines>
-         <UseProjectIncludePaths>FALSE</UseProjectIncludePaths>
+         <UseProjectDefines>false</UseProjectDefines>
+         <UseProjectIncludePaths>false</UseProjectIncludePaths>
         </PreProc>
        </File.0>
       </Download>
@@ -1137,10 +1974,8 @@
        <PostDLActionAlsoAfterReset>0</PostDLActionAlsoAfterReset>
        <TargetDownload>0</TargetDownload>
        <VerifyDownload>False</VerifyDownload>
-       <VerifyDownloadSource>0</VerifyDownloadSource>
        <Download>
         <DefaultFile>-1</DefaultFile>
-        <UseRealTimeWrite>0</UseRealTimeWrite>
        </Download>
        <LoadReport>
         <FileName>$Download.xml</FileName>
@@ -1158,37 +1993,25 @@
        <GlobalProperty>0</GlobalProperty>
        <IgnoreDLInfo>0</IgnoreDLInfo>
       </mode1>
-      <modeEndianBig>
-       <GlobalProperty>0</GlobalProperty>
-       <IgnoreDLInfo>0</IgnoreDLInfo>
-      </modeEndianBig>
-      <modeEndianLittle>
-       <GlobalProperty>0</GlobalProperty>
-       <IgnoreDLInfo>0</IgnoreDLInfo>
-      </modeEndianLittle>
       <MSID>
-       <App></App>
+       <App>0x0</App>
        <bAppID>false</bAppID>
        <bVMID>false</bVMID>
        <Level>Sys</Level>
        <Secure>false</Secure>
-       <VM></VM>
+       <Use>false</Use>
+       <VM>0x0</VM>
       </MSID>
       <Parser>
        <ExpressionMemoryAccessOperator>58</ExpressionMemoryAccessOperator>
       </Parser>
-      <RTOS>
-       <Imported>0</Imported>
-       <OS>0</OS>
-       <PluginRTOS type="B">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</PluginRTOS>
-      </RTOS>
       <SFR>
        <ExternalFormat>CMSIS-SVD</ExternalFormat>
        <ExternalPath></ExternalPath>
        <InternalCustom></InternalCustom>
        <InternalSource>iOPEN</InternalSource>
-       <UseExternal>FALSE</UseExternal>
-       <UseInternal>TRUE</UseInternal>
+       <UseExternal>false</UseExternal>
+       <UseInternal>true</UseInternal>
       </SFR>
       <StackUsage>
        <End></End>
@@ -1196,41 +2019,42 @@
        <Position>End</Position>
        <Size></Size>
        <Start></Start>
-       <Use>FALSE</Use>
+       <Use>false</Use>
       </StackUsage>
       <Symbols>
-       <AddressDisplay>0</AddressDisplay>
-       <ANSI>1</ANSI>
-       <BinaryDisplay>2</BinaryDisplay>
-       <CharArraysAsString>1</CharArraysAsString>
-       <CharDisplay>2</CharDisplay>
-       <DefaultHex>False</DefaultHex>
-       <DereferenceStringPointers>0</DereferenceStringPointers>
-       <DisplayCollapsedValues>1</DisplayCollapsedValues>
-       <DisplayPointerMemArea>0</DisplayPointerMemArea>
-       <EnumDisplay>0</EnumDisplay>
-       <InstructionStartLines>1</InstructionStartLines>
-       <LoadSym>1</LoadSym>
-       <MarkersInLastLine>True</MarkersInLastLine>
-       <MaxParseUpload>256</MaxParseUpload>
+       <LoadSymbols>true</LoadSymbols>
+       <MarkersInLastLine>true</MarkersInLastLine>
        <NumChangeGradients>1</NumChangeGradients>
-       <StepToOtherLine>0</StepToOtherLine>
-       <UsePartitionPrefix>0</UsePartitionPrefix>
-       <VagueFloatPrecision type="D">0.0000100000000000</VagueFloatPrecision>
+       <StepToOtherLine>false</StepToOtherLine>
+       <UsePartitionAppQN>true</UsePartitionAppQN>
+       <Format>
+        <AddressDisplay>HexNoPrefix</AddressDisplay>
+        <ANSI>true</ANSI>
+        <BinaryDisplay>0bPrefix</BinaryDisplay>
+        <CharArraysAsString>true</CharArraysAsString>
+        <CharDisplay>Integer</CharDisplay>
+        <DereferenceStringPointers>false</DereferenceStringPointers>
+        <DisplayCollapsedArrayStruct>true</DisplayCollapsedArrayStruct>
+        <DisplayPointerMemArea>false</DisplayPointerMemArea>
+        <EnumDisplay>Enum</EnumDisplay>
+        <Hex>false</Hex>
+        <MaxParseUpload>256</MaxParseUpload>
+        <QualifiedNames>Unique</QualifiedNames>
+        <VagueFloatPrecision>1e-05</VagueFloatPrecision>
+       </Format>
       </Symbols>
       <Update>
-       <Memory>False</Memory>
-       <OS>True</OS>
+       <Memory>0</Memory>
+       <OS>1</OS>
        <Period>1</Period>
-       <Registers>False</Registers>
+       <Registers>0</Registers>
        <RTPeriod_ms>200</RTPeriod_ms>
-       <RTWhenRunning>True</RTWhenRunning>
-       <RTWhenStopped>False</RTWhenStopped>
-       <SFRs>True</SFRs>
-       <UpdateOnBP>False</UpdateOnBP>
-       <Watches>True</Watches>
-       <WhenRunning>False</WhenRunning>
-       <WhenStopped>False</WhenStopped>
+       <RTWhenRunning>1</RTWhenRunning>
+       <RTWhenStopped>0</RTWhenStopped>
+       <UpdateOnBP>0</UpdateOnBP>
+       <Watches>1</Watches>
+       <WhenRunning>0</WhenRunning>
+       <WhenStopped>0</WhenStopped>
        <AccessData>
         <Cache>0</Cache>
         <CacheRealTimeAccesses>0</CacheRealTimeAccesses>
@@ -1240,11 +2064,11 @@
        </AccessData>
       </Update>
       <WatchExport>
-       <Expression>1</Expression>
+       <Expression>true</Expression>
        <FileName></FileName>
-       <Location>0</Location>
-       <Type>0</Type>
-       <Value>1</Value>
+       <Location>false</Location>
+       <Type>false</Type>
+       <Value>true</Value>
       </WatchExport>
      </Debug>
      <GlobalData>
@@ -1285,7 +2109,7 @@
      <History>
      </History>
      <Info>
-      <winIDEA>Build 9.17.144</winIDEA>
+      <winIDEA>Build 9.17.188</winIDEA>
      </Info>
      <Options>
       <CallstackWindow>
@@ -1296,8 +2120,6 @@
       </CallstackWindow>
       <Environment>
        <DocumentTabNumLines>1</DocumentTabNumLines>
-       <HILExt></HILExt>
-       <HILSrc>0</HILSrc>
        <iConnectLimitClients>0</iConnectLimitClients>
        <iConnectLimitNum>1</iConnectLimitNum>
        <IsBuildManagerEnabled>0</IsBuildManagerEnabled>
@@ -1330,11 +2152,10 @@
       </RTOSWindow>
       <SFRWindow>
        <AbortGroupUpdateOnAccessError>1</AbortGroupUpdateOnAccessError>
-       <Access>0</Access>
        <Display>1</Display>
        <FilterString></FilterString>
        <RadixPfx>1</RadixPfx>
-       <ShortNames>14794</ShortNames>
+       <ShortNames>1</ShortNames>
        <ShowFilter>1</ShowFilter>
        <SubSFRDisplay>2</SubSFRDisplay>
        <TimeLimitFullUpdate>1</TimeLimitFullUpdate>
@@ -1380,21 +2201,21 @@
       <UseDialogForCheckout>1</UseDialogForCheckout>
      </SourceControl>
      <Test>
-      <CatchUncaughtExceptions>FALSE</CatchUncaughtExceptions>
-      <CheckPointerAssignType>TRUE</CheckPointerAssignType>
-      <CheckUserStubPrototype>TRUE</CheckUserStubPrototype>
-      <IgnoreInterruptFunctions>FALSE</IgnoreInterruptFunctions>
-      <InhibitIDERefresh>TRUE</InhibitIDERefresh>
-      <ZeroInitVar>FALSE</ZeroInitVar>
+      <CatchUncaughtExceptions>false</CatchUncaughtExceptions>
+      <CheckPointerAssignType>true</CheckPointerAssignType>
+      <CheckUserStubPrototype>true</CheckUserStubPrototype>
+      <IgnoreInterruptFunctions>false</IgnoreInterruptFunctions>
+      <InhibitIDERefresh>true</InhibitIDERefresh>
+      <ZeroInitVar>false</ZeroInitVar>
       <ARM>
-       <ExtendReturnValues>TRUE</ExtendReturnValues>
-       <UseArmEABI>TRUE</UseArmEABI>
-       <UseHardwareVFP>FALSE</UseHardwareVFP>
+       <ExtendReturnValues>true</ExtendReturnValues>
+       <UseArmEABI>true</UseArmEABI>
+       <UseHardwareVFP>false</UseHardwareVFP>
       </ARM>
       <CallFrame>
        <CallFrame>Stack</CallFrame>
        <CallFrameNone>
-        <AutomaticReturn>TRUE</AutomaticReturn>
+        <AutomaticReturn>true</AutomaticReturn>
         <CustomReturn></CustomReturn>
        </CallFrameNone>
        <CallFrameRange>
@@ -1422,8 +2243,14 @@
        </PersistentVariablesRange>
       </PersistentVars>
       <PPC>
-       <ExtendReturnValues>FALSE</ExtendReturnValues>
+       <ExtendReturnValues>false</ExtendReturnValues>
       </PPC>
+      <RISCV32>
+       <ABI>ILP32D</ABI>
+      </RISCV32>
+      <RISCV64>
+       <ABI>2</ABI>
+      </RISCV64>
       <TriCore>
        <Compiler>Tasking</Compiler>
       </TriCore>
@@ -1433,9 +2260,7 @@
      </Test>
      <WindowsInfo>
       <Memory>
-       <FillAddressType>1</FillAddressType>
        <FillSize>1</FillSize>
-       <FillSizeHex>True</FillSizeHex>
        <FillSizeType>1</FillSizeType>
        <FillValue>0</FillValue>
        <FillValueType>0</FillValueType>
@@ -1443,14 +2268,12 @@
        <FindValueType>0</FindValueType>
        <Format>0</Format>
        <FSA type="B">ABAAAAAAAAAAAAAA</FSA>
-       <HexSaveAddress>False</HexSaveAddress>
-       <HexSaveSize>True</HexSaveSize>
        <MAUsPerLine>16</MAUsPerLine>
        <SaveFile></SaveFile>
        <SaveSize>100</SaveSize>
        <SaveSizeType>1</SaveSizeType>
        <ShowLastValidAccess>0</ShowLastValidAccess>
-       <SymbolTips>True</SymbolTips>
+       <SymbolTips>1</SymbolTips>
       </Memory>
       <SFR>
        <InitScript></InitScript>
@@ -1466,9 +2289,18 @@
      </WindowsInfo>
     </Environment>
     <Mode>
+     <CoreIndex>0</CoreIndex>
      <MMS_Cfg>false</MMS_Cfg>
+     <MMSLevel>ThisInstance</MMSLevel>
     </Mode>
     <Op_System>
+     <Debug>
+      <Processes>
+       <__.0>
+        <URL>App/CORE0</URL>
+       </__.0>
+      </Processes>
+     </Debug>
     </Op_System>
     <Plugins>
      <_108541C3-E380-41DE-AFA5-3D8517465B5E>
@@ -1496,6 +2328,15 @@
        </Config>
       </Plugin>
      </_76946E39-78E2-4625-9BF0-751C4C11A09F>
+     <B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
+      <Plugin>
+       <Config>
+        <AutoStart>false</AutoStart>
+        <Port>5555</Port>
+        <Protocol>TCP</Protocol>
+       </Config>
+      </Plugin>
+     </B6DE5FA5-AE7D-4C0B-B4FF-02174A47912C>
     </Plugins>
    </REG_ROOT>
   </winIDEA>
@@ -1506,7 +2347,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1279852544</RegVer>
+    <RegVer>1280032768</RegVer>
     <Project_Local>
      <Project.0>
       <DefaultTargetName>STM32L010_IC5000 - Debug</DefaultTargetName>
@@ -1521,7 +2362,7 @@
     <VersionLow>1</VersionLow>
    </REG_HEADER>
    <REG_ROOT>
-    <RegVer>1279852544</RegVer>
+    <RegVer>1280032768</RegVer>
     <HServerData>
      <Data>
       <BBSync>
@@ -1547,18 +2388,11 @@
           <CC_RestartCounter>0</CC_RestartCounter>
           <Enabled>0</Enabled>
           <EnableExceptionTrace>0</EnableExceptionTrace>
-          <EnableITMStimulus type="B">AAAAAAAA</EnableITMStimulus>
-          <EnableITMTimestamps>0</EnableITMTimestamps>
-          <ITMGlobalTimestamp>0</ITMGlobalTimestamp>
-          <ITMGroupPrivileged type="B">AA</ITMGroupPrivileged>
-          <ITMStimulusSelect>0</ITMStimulusSelect>
-          <ITMTimestampPrescaler>0</ITMTimestampPrescaler>
           <PCE_CPICounter>0</PCE_CPICounter>
           <PCE_ExceptionOverheadCounter>0</PCE_ExceptionOverheadCounter>
           <PCE_FoldedInstructionCounter>0</PCE_FoldedInstructionCounter>
           <PCE_LoadStoreUnitCounter>0</PCE_LoadStoreUnitCounter>
           <PCE_SleepOverheadCounter>0</PCE_SleepOverheadCounter>
-          <UseAsTimeStampSource>0</UseAsTimeStampSource>
           <Comparator.0>
            <Action>5</Action>
            <CycleCount>0</CycleCount>
@@ -1875,6 +2709,860 @@
         <Name>Root</Name>
         <Type>0x0</Type>
         <Cfg>
+         <AP.0>
+          <Cfg>
+           <Group>0</Group>
+           <Name>AP1</Name>
+           <Connectors.0>
+            <Adapter>none</Adapter>
+            <PinCfg.0>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.0>
+            <PinCfg.1>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.1>
+            <PinCfg.10>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.10>
+            <PinCfg.11>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.11>
+            <PinCfg.12>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.12>
+            <PinCfg.13>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.13>
+            <PinCfg.14>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.14>
+            <PinCfg.15>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.15>
+            <PinCfg.16>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.16>
+            <PinCfg.17>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.17>
+            <PinCfg.18>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.18>
+            <PinCfg.19>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.19>
+            <PinCfg.2>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.2>
+            <PinCfg.20>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.20>
+            <PinCfg.21>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.21>
+            <PinCfg.22>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.22>
+            <PinCfg.23>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.23>
+            <PinCfg.24>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.24>
+            <PinCfg.25>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.25>
+            <PinCfg.26>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.26>
+            <PinCfg.27>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.27>
+            <PinCfg.28>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.28>
+            <PinCfg.29>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.29>
+            <PinCfg.3>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.3>
+            <PinCfg.30>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.30>
+            <PinCfg.31>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.31>
+            <PinCfg.32>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.32>
+            <PinCfg.33>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.33>
+            <PinCfg.34>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.34>
+            <PinCfg.35>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.35>
+            <PinCfg.36>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.36>
+            <PinCfg.37>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.37>
+            <PinCfg.38>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.38>
+            <PinCfg.39>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.39>
+            <PinCfg.4>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.4>
+            <PinCfg.5>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.5>
+            <PinCfg.6>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.6>
+            <PinCfg.7>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.7>
+            <PinCfg.8>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.8>
+            <PinCfg.9>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.9>
+           </Connectors.0>
+           <Connectors.1>
+            <Adapter>none</Adapter>
+            <PinCfg.0>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.0>
+            <PinCfg.1>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.1>
+            <PinCfg.10>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.10>
+            <PinCfg.11>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.11>
+            <PinCfg.12>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.12>
+            <PinCfg.13>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.13>
+            <PinCfg.14>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.14>
+            <PinCfg.15>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.15>
+            <PinCfg.16>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.16>
+            <PinCfg.17>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.17>
+            <PinCfg.18>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.18>
+            <PinCfg.19>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.19>
+            <PinCfg.2>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.2>
+            <PinCfg.20>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.20>
+            <PinCfg.21>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.21>
+            <PinCfg.22>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.22>
+            <PinCfg.23>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.23>
+            <PinCfg.24>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.24>
+            <PinCfg.25>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.25>
+            <PinCfg.26>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.26>
+            <PinCfg.27>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.27>
+            <PinCfg.28>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.28>
+            <PinCfg.29>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.29>
+            <PinCfg.3>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.3>
+            <PinCfg.30>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.30>
+            <PinCfg.31>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.31>
+            <PinCfg.32>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.32>
+            <PinCfg.33>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.33>
+            <PinCfg.34>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.34>
+            <PinCfg.35>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.35>
+            <PinCfg.36>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.36>
+            <PinCfg.37>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.37>
+            <PinCfg.38>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.38>
+            <PinCfg.39>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.39>
+            <PinCfg.4>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.4>
+            <PinCfg.5>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.5>
+            <PinCfg.6>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.6>
+            <PinCfg.7>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.7>
+            <PinCfg.8>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.8>
+            <PinCfg.9>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.9>
+           </Connectors.1>
+          </Cfg>
+          <Op>
+           <CheckStatus>false</CheckStatus>
+           <RunOnSync>false</RunOnSync>
+           <StopOnSync>false</StopOnSync>
+           <SyncOnStop>false</SyncOnStop>
+           <IPQualifier>
+            <Initial>true</Initial>
+            <Disable>
+             <TC>0</TC>
+            </Disable>
+            <Enable>
+             <TC>0</TC>
+            </Enable>
+           </IPQualifier>
+          </Op>
+         </AP.0>
+         <AP.1>
+          <Cfg>
+           <Group>0</Group>
+           <Name>AP2</Name>
+           <Connectors.0>
+            <Adapter>none</Adapter>
+            <PinCfg.0>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.0>
+            <PinCfg.1>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.1>
+            <PinCfg.10>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.10>
+            <PinCfg.11>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.11>
+            <PinCfg.12>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.12>
+            <PinCfg.13>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.13>
+            <PinCfg.14>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.14>
+            <PinCfg.15>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.15>
+            <PinCfg.16>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.16>
+            <PinCfg.17>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.17>
+            <PinCfg.18>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.18>
+            <PinCfg.19>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.19>
+            <PinCfg.2>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.2>
+            <PinCfg.20>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.20>
+            <PinCfg.21>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.21>
+            <PinCfg.22>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.22>
+            <PinCfg.23>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.23>
+            <PinCfg.24>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.24>
+            <PinCfg.25>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.25>
+            <PinCfg.26>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.26>
+            <PinCfg.27>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.27>
+            <PinCfg.28>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.28>
+            <PinCfg.29>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.29>
+            <PinCfg.3>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.3>
+            <PinCfg.30>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.30>
+            <PinCfg.31>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.31>
+            <PinCfg.32>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.32>
+            <PinCfg.33>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.33>
+            <PinCfg.34>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.34>
+            <PinCfg.35>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.35>
+            <PinCfg.36>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.36>
+            <PinCfg.37>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.37>
+            <PinCfg.38>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.38>
+            <PinCfg.39>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.39>
+            <PinCfg.4>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.4>
+            <PinCfg.5>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.5>
+            <PinCfg.6>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.6>
+            <PinCfg.7>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.7>
+            <PinCfg.8>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.8>
+            <PinCfg.9>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.9>
+           </Connectors.0>
+           <Connectors.1>
+            <Adapter>none</Adapter>
+            <PinCfg.0>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.0>
+            <PinCfg.1>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.1>
+            <PinCfg.10>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.10>
+            <PinCfg.11>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.11>
+            <PinCfg.12>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.12>
+            <PinCfg.13>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.13>
+            <PinCfg.14>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.14>
+            <PinCfg.15>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.15>
+            <PinCfg.16>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.16>
+            <PinCfg.17>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.17>
+            <PinCfg.18>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.18>
+            <PinCfg.19>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.19>
+            <PinCfg.2>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.2>
+            <PinCfg.20>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.20>
+            <PinCfg.21>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.21>
+            <PinCfg.22>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.22>
+            <PinCfg.23>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.23>
+            <PinCfg.24>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.24>
+            <PinCfg.25>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.25>
+            <PinCfg.26>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.26>
+            <PinCfg.27>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.27>
+            <PinCfg.28>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.28>
+            <PinCfg.29>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.29>
+            <PinCfg.3>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.3>
+            <PinCfg.30>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.30>
+            <PinCfg.31>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.31>
+            <PinCfg.32>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.32>
+            <PinCfg.33>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.33>
+            <PinCfg.34>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.34>
+            <PinCfg.35>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.35>
+            <PinCfg.36>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.36>
+            <PinCfg.37>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.37>
+            <PinCfg.38>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.38>
+            <PinCfg.39>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.39>
+            <PinCfg.4>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.4>
+            <PinCfg.5>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.5>
+            <PinCfg.6>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.6>
+            <PinCfg.7>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.7>
+            <PinCfg.8>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.8>
+            <PinCfg.9>
+             <CfgIn>I_HZ</CfgIn>
+             <CfgOut>O_TS</CfgOut>
+             <Initial>HIGH</Initial>
+            </PinCfg.9>
+           </Connectors.1>
+          </Cfg>
+          <Op>
+           <CheckStatus>false</CheckStatus>
+           <RunOnSync>false</RunOnSync>
+           <StopOnSync>false</StopOnSync>
+           <SyncOnStop>false</SyncOnStop>
+           <IPQualifier>
+            <Initial>true</Initial>
+            <Disable>
+             <TC>0</TC>
+            </Disable>
+            <Enable>
+             <TC>0</TC>
+            </Enable>
+           </IPQualifier>
+          </Op>
+         </AP.1>
          <COUNTER.0>
           <Cfg>
            <Group>0</Group>
@@ -2011,6 +3699,7 @@
            <Comp.0>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2021,6 +3710,7 @@
            <Comp.1>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2031,6 +3721,7 @@
            <Comp.2>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2041,6 +3732,7 @@
            <Comp.3>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2070,6 +3762,7 @@
            <Comp.0>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2080,6 +3773,7 @@
            <Comp.1>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2090,6 +3784,7 @@
            <Comp.2>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2100,6 +3795,7 @@
            <Comp.3>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2129,6 +3825,7 @@
            <Comp.0>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2139,6 +3836,7 @@
            <Comp.1>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2149,6 +3847,7 @@
            <Comp.2>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2159,6 +3858,7 @@
            <Comp.3>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2188,6 +3888,7 @@
            <Comp.0>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2198,6 +3899,7 @@
            <Comp.1>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2208,6 +3910,7 @@
            <Comp.2>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2218,6 +3921,7 @@
            <Comp.3>
             <Access>Any</Access>
             <Address>0</Address>
+            <Encoding>7-bit</Encoding>
             <TQ>
              <Qualify>false</Qualify>
              <Trigger>
@@ -2266,6 +3970,7 @@
         <DRPrefix>0</DRPrefix>
         <EVEScriptPath></EVEScriptPath>
         <ForceDebugBaseAddress>0</ForceDebugBaseAddress>
+        <ForceScanAllDPv1APs>false</ForceScanAllDPv1APs>
         <ForceScanEntireRomtables>0</ForceScanEntireRomtables>
         <IDSingleComponentOnly>0</IDSingleComponentOnly>
         <IRLength>4</IRLength>
@@ -2292,7 +3997,7 @@
        <Output>
         <Type>0</Type>
         <Cortex>
-         <EnableITMStimulus type="B">AAAAAAAA</EnableITMStimulus>
+         <EnableITMStimulus type="B">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</EnableITMStimulus>
          <ITMStimulusSelect>0</ITMStimulusSelect>
         </Cortex>
         <SharedMem>
@@ -2319,7 +4024,7 @@
       </Tools>
       <Trace>
        <Common>
-        <AnalyzerReadMemoryOnMissingCode>TRUE</AnalyzerReadMemoryOnMissingCode>
+        <AnalyzerReadMemoryOnMissingCode>true</AnalyzerReadMemoryOnMissingCode>
         <CustomTimeStamp></CustomTimeStamp>
        </Common>
        <TriCore>
@@ -2352,12 +4057,21 @@
          <OverrideTimeout>0</OverrideTimeout>
          <ParallelNum>1</ParallelNum>
          <ProgramAtDownload>0</ProgramAtDownload>
+         <ProgramEmpty>1</ProgramEmpty>
          <Timeout>30</Timeout>
          <UseCompression>1</UseCompression>
          <UseHash>1</UseHash>
          <Verify>1</Verify>
          <Version></Version>
          <Virtual>0</Virtual>
+         <CP_Post>
+          <Execute>Default</Execute>
+          <Scripts></Scripts>
+         </CP_Post>
+         <CP_Pre>
+          <Execute>Default</Execute>
+          <Scripts></Scripts>
+         </CP_Pre>
          <Options>
           <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
           <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
@@ -2391,6 +4105,7 @@
           <OverrideTimeout>0</OverrideTimeout>
           <ParallelNum>1</ParallelNum>
           <ProgramAtDownload>false</ProgramAtDownload>
+          <ProgramEmpty>true</ProgramEmpty>
           <Timeout>30</Timeout>
           <UseBufferCompress>true</UseBufferCompress>
           <UseCompression>true</UseCompression>
@@ -2399,6 +4114,14 @@
           <Verify>true</Verify>
           <Version></Version>
           <Virtual>false</Virtual>
+          <CP_Post>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Post>
+          <CP_Pre>
+           <Execute>Default</Execute>
+           <Scripts></Scripts>
+          </CP_Pre>
           <Options>
            <UNIT_Type_AllowProgramming_0>false</UNIT_Type_AllowProgramming_0>
            <UNIT_Type_AllowProgramming_1>false</UNIT_Type_AllowProgramming_1>
@@ -2410,12 +4133,10 @@
       </UMI1>
      </Data>
      <HW>
-      <V_BUILD>144</V_BUILD>
+      <V_BUILD>188</V_BUILD>
       <V_BUILD_SUB>0</V_BUILD_SUB>
       <V_MAJOR>9</V_MAJOR>
-      <V_Mfix>1</V_Mfix>
       <V_MINOR>17</V_MINOR>
-      <Version>152109344</Version>
       <BDM>
        <CallPoint>
         <Attach_ConnectToSoC_Same>false</Attach_ConnectToSoC_Same>
@@ -2423,7 +4144,8 @@
         <Attach_StopToExecute>true</Attach_StopToExecute>
         <Debug_ConnectToSoC_Same>false</Debug_ConnectToSoC_Same>
         <Debug_InitSoC_Same>false</Debug_InitSoC_Same>
-        <Program_ResetAfterProgram>false</Program_ResetAfterProgram>
+        <Program_ResetAfterProgram>true</Program_ResetAfterProgram>
+        <WDTDisable>false</WDTDisable>
         <Attach_ConnectToSoC>
          <Execute>Default</Execute>
          <Scripts></Scripts>
@@ -2466,36 +4188,17 @@
          <CortexTraceProtocol>2</CortexTraceProtocol>
          <CortexTRACEWidth>0</CortexTRACEWidth>
          <ForceOddResetVectorOnThumbOnly>0</ForceOddResetVectorOnThumbOnly>
-         <iMX_DisableSecurityAIPS_TZ1_2>0</iMX_DisableSecurityAIPS_TZ1_2>
          <UseCTMCh0and1ForSyncedRunStop>0</UseCTMCh0and1ForSyncedRunStop>
          <UseCTMCh2and3ForTrace>0</UseCTMCh2and3ForTrace>
          <CC26xx>
           <SWO_._DIO_._Pin>0</SWO_._DIO_._Pin>
          </CC26xx>
-         <EFM32>
-          <Debug_._Trace_._HFCLK_._Select>FALSE</Debug_._Trace_._HFCLK_._Select>
-          <Parallel_._Trace_._Location>Location 0</Parallel_._Trace_._Location>
-          <SWO_._Pin>Pin 0</SWO_._Pin>
-          <TD0PEN>FALSE</TD0PEN>
-          <TD1PEN>FALSE</TD1PEN>
-          <TD2PEN>FALSE</TD2PEN>
-          <TD3PEN>FALSE</TD3PEN>
-         </EFM32>
          <ETR>
           <Devices.0>
            <DestAddr>0</DestAddr>
            <DestSize>0</DestSize>
           </Devices.0>
          </ETR>
-         <FCR4>
-          <SECKEY0>0x0</SECKEY0>
-          <SECKEY1>0x0</SECKEY1>
-          <SECKEY2>0x0</SECKEY2>
-          <SECKEY3>0x0</SECKEY3>
-         </FCR4>
-         <Kinetis_._K>
-          <Trace_._Port>PORT A</Trace_._Port>
-         </Kinetis_._K>
          <MTB>
           <Buffer_._Address>0x0</Buffer_._Address>
           <Buffer_._Size>0</Buffer_._Size>
@@ -2531,13 +4234,6 @@
           <TRACE_._DATA2_._Port>PORT 17</TRACE_._DATA2_._Port>
           <TRACE_._DATA3_._Port>PORT 17</TRACE_._DATA3_._Port>
          </TraveoII>
-         <XMC4000>
-          <TRACE_._CLOCK_._Port>PORT2</TRACE_._CLOCK_._Port>
-          <TRACE_._DATA0_._Port>PORT2</TRACE_._DATA0_._Port>
-          <TRACE_._DATA1_._Port>PORT2</TRACE_._DATA1_._Port>
-          <TRACE_._DATA2_._Port>PORT2</TRACE_._DATA2_._Port>
-          <TRACE_._DATA3_._Port>PORT2</TRACE_._DATA3_._Port>
-         </XMC4000>
          <ZynqUSp>
           <RPU_._Start_._mode>None</RPU_._Start_._mode>
          </ZynqUSp>
@@ -2546,16 +4242,16 @@
          <CTM>
           <Channels>
            <__.0>
-            <UseForDebug>FALSE</UseForDebug>
+            <UseForDebug>false</UseForDebug>
            </__.0>
            <__.1>
-            <UseForDebug>FALSE</UseForDebug>
+            <UseForDebug>false</UseForDebug>
            </__.1>
            <__.2>
-            <UseForDebug>FALSE</UseForDebug>
+            <UseForDebug>false</UseForDebug>
            </__.2>
            <__.3>
-            <UseForDebug>FALSE</UseForDebug>
+            <UseForDebug>false</UseForDebug>
            </__.3>
           </Channels>
          </CTM>
@@ -2567,20 +4263,11 @@
          <CortexSWOClock>0</CortexSWOClock>
          <CortexTraceProtocol>Parallel</CortexTraceProtocol>
          <CortexTRACEWidth>1-bit</CortexTRACEWidth>
-         <UseCTMCh0and1ForSyncedRunStop>FALSE</UseCTMCh0and1ForSyncedRunStop>
-         <UseCTMCh2and3ForTrace>FALSE</UseCTMCh2and3ForTrace>
+         <UseCTMCh0and1ForSyncedRunStop>false</UseCTMCh0and1ForSyncedRunStop>
+         <UseCTMCh2and3ForTrace>false</UseCTMCh2and3ForTrace>
          <CC26xx>
           <SWO_._DIO_._Pin>0</SWO_._DIO_._Pin>
          </CC26xx>
-         <EFM32>
-          <Debug_._Trace_._HFCLK_._Select>FALSE</Debug_._Trace_._HFCLK_._Select>
-          <Parallel_._Trace_._Location>Location 0</Parallel_._Trace_._Location>
-          <SWO_._Pin>Pin 0</SWO_._Pin>
-          <TD0PEN>FALSE</TD0PEN>
-          <TD1PEN>FALSE</TD1PEN>
-          <TD2PEN>FALSE</TD2PEN>
-          <TD3PEN>FALSE</TD3PEN>
-         </EFM32>
          <ETF>
           <StopWhen>FirstFull</StopWhen>
          </ETF>
@@ -2590,15 +4277,6 @@
            <DestSize>0</DestSize>
           </Devices.0>
          </ETR>
-         <FCR4>
-          <SECKEY0>0x0</SECKEY0>
-          <SECKEY1>0x0</SECKEY1>
-          <SECKEY2>0x0</SECKEY2>
-          <SECKEY3>0x0</SECKEY3>
-         </FCR4>
-         <KINETIS>
-          <Trace_._Port>PORT A</Trace_._Port>
-         </KINETIS>
          <MTB>
           <Buffer_._Address>0x0</Buffer_._Address>
           <Buffer_._Size>0</Buffer_._Size>
@@ -2639,13 +4317,6 @@
           <Enable>false</Enable>
           <ResetAtTraceStart>false</ResetAtTraceStart>
          </TSGEN>
-         <XMC4000>
-          <TRACE_._CLOCK_._Port>PORT2</TRACE_._CLOCK_._Port>
-          <TRACE_._DATA0_._Port>PORT2</TRACE_._DATA0_._Port>
-          <TRACE_._DATA1_._Port>PORT2</TRACE_._DATA1_._Port>
-          <TRACE_._DATA2_._Port>PORT2</TRACE_._DATA2_._Port>
-          <TRACE_._DATA3_._Port>PORT2</TRACE_._DATA3_._Port>
-         </XMC4000>
          <ZynqUSp>
           <RPU_._Start_._mode>None</RPU_._Start_._mode>
          </ZynqUSp>
@@ -2720,7 +4391,7 @@
        <InitSequence>
         <File></File>
         <InitAfterReset>0</InitAfterReset>
-        <ResetCPUAfterDownload>0</ResetCPUAfterDownload>
+        <ResetCPUAfterDownload>1</ResetCPUAfterDownload>
         <Use>0</Use>
        </InitSequence>
        <InitSequence2nd>
@@ -2805,8 +4476,8 @@
           </ARMv8>
           <Common>
            <Endian>LE</Endian>
-           <StopCPUActivities>FALSE</StopCPUActivities>
-           <UseSWBPs>FALSE</UseSWBPs>
+           <StopCPUActivities>false</StopCPUActivities>
+           <UseSWBPs>false</UseSWBPs>
           </Common>
           <Cortex>
            <Exceptions>
@@ -2822,32 +4493,32 @@
           </Cortex>
           <e200>
            <DebugSelect>0x180</DebugSelect>
-           <EVTOOnlyOnBP>FALSE</EVTOOnlyOnBP>
-           <NPIDRistransmittedwithinOTM>FALSE</NPIDRistransmittedwithinOTM>
-           <StopTimerDuringStep>FALSE</StopTimerDuringStep>
-           <StopWhenReleasedFromReset>FALSE</StopWhenReleasedFromReset>
-           <UseBDMMemAccessWhenStopped>FALSE</UseBDMMemAccessWhenStopped>
-           <UseTrapForSWBPsinPowerPCMode>FALSE</UseTrapForSWBPsinPowerPCMode>
+           <EVTOOnlyOnBP>false</EVTOOnlyOnBP>
+           <NPIDRistransmittedwithinOTM>false</NPIDRistransmittedwithinOTM>
+           <StopTimerDuringStep>false</StopTimerDuringStep>
+           <StopWhenReleasedFromReset>false</StopWhenReleasedFromReset>
+           <UseBDMMemAccessWhenStopped>false</UseBDMMemAccessWhenStopped>
+           <UseTrapForSWBPsinPowerPCMode>false</UseTrapForSWBPsinPowerPCMode>
           </e200>
           <eTPU>
-           <CLKS>FALSE</CLKS>
-           <HaltOnPrimaryCoreBP>FALSE</HaltOnPrimaryCoreBP>
-           <HTWN>FALSE</HTWN>
-           <PINS>FALSE</PINS>
+           <CLKS>false</CLKS>
+           <HaltOnPrimaryCoreBP>false</HaltOnPrimaryCoreBP>
+           <HTWN>false</HTWN>
+           <PINS>false</PINS>
            <RegAccessHelperLocation>0x0</RegAccessHelperLocation>
           </eTPU>
           <Tricore>
-           <ReserveBPPair_0>FALSE</ReserveBPPair_0>
-           <ReserveBPPair_1>FALSE</ReserveBPPair_1>
-           <ReserveBPPair_2>FALSE</ReserveBPPair_2>
-           <ReserveBPPair_3>FALSE</ReserveBPPair_3>
+           <ReserveBPPair_0>false</ReserveBPPair_0>
+           <ReserveBPPair_1>false</ReserveBPPair_1>
+           <ReserveBPPair_2>false</ReserveBPPair_2>
+           <ReserveBPPair_3>false</ReserveBPPair_3>
           </Tricore>
           <V850>
-           <MaskHOLD>FALSE</MaskHOLD>
-           <MaskNMI0>FALSE</MaskNMI0>
-           <MaskNMI1>FALSE</MaskNMI1>
-           <MaskRESET>FALSE</MaskRESET>
-           <MaskWAIT>FALSE</MaskWAIT>
+           <MaskHOLD>false</MaskHOLD>
+           <MaskNMI0>false</MaskNMI0>
+           <MaskNMI1>false</MaskNMI1>
+           <MaskRESET>false</MaskRESET>
+           <MaskWAIT>false</MaskWAIT>
           </V850>
          </__.0>
         </Cores>
@@ -2883,7 +4554,7 @@
         </ChallengeResponse>
        </SetupData>
        <SlowRun>
-        <Enabled>FALSE</Enabled>
+        <Enabled>false</Enabled>
        </SlowRun>
        <Synchronization>
         <Enabled>0</Enabled>
