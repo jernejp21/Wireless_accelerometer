@@ -28,6 +28,12 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+enum fifo
+{
+  FIFO_OK = 0,
+  FIFO_EMPTY = 1,
+  FIFO_FULL = 2,
+};
 
 /* USER CODE END PTD */
 
@@ -35,6 +41,7 @@
 /* USER CODE BEGIN PD */
 #define LSM6DSL_R_ADD 0xD7
 #define LSM6DSL_W_ADD 0xD6
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -48,6 +55,7 @@ I2C_HandleTypeDef hi2c1;
 SPI_HandleTypeDef hspi1;
 
 TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim21;
 
 /* USER CODE BEGIN PV */
 
@@ -59,6 +67,7 @@ static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_I2C1_Init(void);
+static void MX_TIM21_Init(void);
 /* USER CODE BEGIN PFP */
 
 void Radio_Init(uint8_t *receiver, uint8_t *transmitter);
@@ -67,7 +76,9 @@ void Radio_Transmit(uint8_t *package);
 
 void Acc_Init(void);
 
-//void TIM2_IRQHandler(void);
+void FIFO_Init(void);
+int FIFO_Write(uint8_t*, uint8_t);
+int FIFO_Read(uint8_t*, uint8_t);
 
 /* USER CODE END PFP */
 
@@ -82,10 +93,20 @@ uint8_t RxSPI[6] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
 uint8_t settings[14];
 uint8_t package[14];
+//uint16_t timeStamp[4000];
+
+/* Queue structure */
+#define FIFO_ELEMENTS 6000
+#define FIFO_SIZE (FIFO_ELEMENTS + 1)
+uint8_t FIFO_buffer[FIFO_SIZE];
+uint16_t FIFO_head, FIFO_tail;
+
+int counter;
+int counter2;
 
 int16_t accx = 0;
 int16_t accy = 0;
-int16_t accz = 0;
+int16_t accz = 1;
 
 /* USER CODE END 0 */
 
@@ -93,7 +114,7 @@ int16_t accz = 0;
  * @brief  The application entry point.
  * @retval int
  */
-int main(void)  //fc:startStop main
+int main(void)
 {
   /* USER CODE BEGIN 1 */
 
@@ -121,6 +142,7 @@ int main(void)  //fc:startStop main
   MX_SPI1_Init();
   MX_TIM2_Init();
   MX_I2C1_Init();
+  MX_TIM21_Init();
   /* USER CODE BEGIN 2 */
 
   // Flush SPI buffer
@@ -133,15 +155,26 @@ int main(void)  //fc:startStop main
 
   // Start interrupt on TIM2
   NVIC->ISER[0] |= (1 << TIM2_IRQn);  //fc:process "Enable NVIC interrupt" "for TIM2"
-  NVIC_SetPriority(TIM2_IRQn, 2);  //fc:middleware "Edit TIM2 priority"
+  NVIC_SetPriority(TIM2_IRQn, 1);  //fc:middleware "Edit TIM2 priority"
   TIM2->DIER |= (1 << TIM_DIER_CC1IE_Pos);  //fc:process "Enable TIM2 interrupt"
   TIM2->CR1 |= (1 << TIM_CR1_CEN_Pos);  //fc:process "Start TIM2 counter"
+
+  NVIC->ISER[0] |= (1 << TIM21_IRQn);  //fc:process "Enable NVIC interrupt" "for TIM2"
+  NVIC_SetPriority(TIM21_IRQn, 3);  //fc:middleware "Edit TIM2 priority"
+  TIM21->DIER |= (1 << TIM_DIER_CC1IE_Pos);  //fc:process "Enable TIM21 interrupt"
+  TIM21->CR1 |= (1 << TIM_CR1_CEN_Pos);  //fc:process "Start TIM21 counter"
 
   package[0] = 0x11;
   package[1] = 0x22;
   package[2] = 0x33;
   package[3] = 0x44;
   package[4] = 0x55;
+
+  TxSPI[0] = W_REGISTER(CONFIG);
+  TxSPI[1] = 0x3E;
+  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
+  HAL_SPI_Transmit(&hspi1, TxSPI, 2, 100);
+  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -154,7 +187,7 @@ int main(void)  //fc:startStop main
     //fc:interrupt "TIM2_IRQHandler" "every 1000 ms"
   }  //fc:end
   /* USER CODE END 3 */
-}  //fc:startStop return
+}
 
 /**
  * @brief System Clock Configuration
@@ -219,7 +252,7 @@ static void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.Timing = 0x00707CBB;
+  hi2c1.Init.Timing = 0x00300F38;
   hi2c1.Init.OwnAddress1 = 0;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
@@ -306,9 +339,9 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 999;
+  htim2.Init.Prescaler = 23;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 32000;
+  htim2.Init.Period = 25641;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if(HAL_TIM_Base_Init(&htim2) != HAL_OK)
@@ -329,6 +362,51 @@ static void MX_TIM2_Init(void)
   /* USER CODE BEGIN TIM2_Init 2 */
 
   /* USER CODE END TIM2_Init 2 */
+
+}
+
+/**
+ * @brief TIM21 Initialization Function
+ * @param None
+ * @retval None
+ */
+static void MX_TIM21_Init(void)
+{
+
+  /* USER CODE BEGIN TIM21_Init 0 */
+
+  /* USER CODE END TIM21_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM21_Init 1 */
+
+  /* USER CODE END TIM21_Init 1 */
+  htim21.Instance = TIM21;
+  htim21.Init.Prescaler = 9999;
+  htim21.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim21.Init.Period = 12800;
+  htim21.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim21.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if(HAL_TIM_Base_Init(&htim21) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if(HAL_TIM_ConfigClockSource(&htim21, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if(HAL_TIMEx_MasterConfigSynchronization(&htim21, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM21_Init 2 */
+
+  /* USER CODE END TIM21_Init 2 */
 
 }
 
@@ -373,7 +451,17 @@ static void MX_GPIO_Init(void)
 void Acc_Init()
 {
   TxSPI[0] = 0x10;
-  TxSPI[1] = 0x60;
+  TxSPI[1] = 0x80;
+  HAL_I2C_Master_Transmit(&hi2c1, LSM6DSL_W_ADD, TxSPI, 2, 100);
+
+  // Timestamp LSB = 25 us
+  TxSPI[0] = 0x5C;
+  TxSPI[1] = 0x10;
+  HAL_I2C_Master_Transmit(&hi2c1, LSM6DSL_W_ADD, TxSPI, 2, 100);
+
+  // Enable timestamp
+  TxSPI[0] = 0x19;
+  TxSPI[1] = 0x20;
   HAL_I2C_Master_Transmit(&hi2c1, LSM6DSL_W_ADD, TxSPI, 2, 100);
 }
 
@@ -497,11 +585,11 @@ void Radio_Transmit(uint8_t *package)
   HAL_GPIO_WritePin(CE_GPIO_Port, CE_Pin, GPIO_PIN_RESET);
 
   // 1. set PRIM_RX to 0 to enable TX mode
-  TxSPI[0] = W_REGISTER(CONFIG);
-  TxSPI[1] = 0x3E;
-  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
-  HAL_SPI_Transmit(&hspi1, TxSPI, 2, 100);
-  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
+  /*TxSPI[0] = W_REGISTER(CONFIG);
+   TxSPI[1] = 0x3E;
+   HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
+   HAL_SPI_Transmit(&hspi1, TxSPI, 2, 100);
+   HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);*/
 
   // Clear RX_DR, TX_DS, MAX_RT flags
   TxSPI[0] = W_REGISTER(STATUS);
@@ -511,7 +599,7 @@ void Radio_Transmit(uint8_t *package)
   HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
 
   // Wait 130 us for TX to be enabled
-  HAL_Delay(1);
+  //HAL_Delay(1);
 
   // 2. load package to FIFO
   tmp_package[0] = W_TX_PAYLOAD;
@@ -525,7 +613,7 @@ void Radio_Transmit(uint8_t *package)
 
   // 3. send at least 10 us pulse to CE to start transmitting
   HAL_GPIO_WritePin(CE_GPIO_Port, CE_Pin, GPIO_PIN_SET);
-  HAL_Delay(20);
+  HAL_Delay(1);
   HAL_GPIO_WritePin(CE_GPIO_Port, CE_Pin, GPIO_PIN_RESET);
 
   // 4. check if data was received on the other end
@@ -554,36 +642,102 @@ void Radio_Transmit(uint8_t *package)
   }
 }
 
+// task 1
+// Freq: 52 Hz
 void TIM2_IRQHandler(void)  //fc:startStop TIM2_IRQHandler
 {
+  char fifo_status;
+  if(counter < 10000)
+  {
+    package[0] = 0x28;
+    HAL_I2C_Master_Transmit(&hi2c1, LSM6DSL_W_ADD, package, 1, 100);
+    HAL_I2C_Master_Receive(&hi2c1, LSM6DSL_R_ADD, package, 6, 100);  //fc:middleware "Get accel data"
 
-  // This interrupt routine reads data from accelerometer and sends it over nRF
-  // Implement reading data from MPU-6500
-  /*
-   *
-   *
-   */
+    //accx = (package[1] << 8) | package[0];
+    //accy = (package[3] << 8) | package[2];
+    //accz = (package[5] << 8) | package[4];
+    fifo_status = FIFO_Write(package, 6);
 
-  package[0] = 0x28;
-  HAL_I2C_Master_Transmit(&hi2c1, LSM6DSL_W_ADD, package, 1, 100);
-  HAL_I2C_Master_Receive(&hi2c1, LSM6DSL_R_ADD, package, 6, 100);  //fc:middleware "Get accel data"
+    if(fifo_status == FIFO_FULL)
+    {
+      __asm__("BKPT");
+    }
 
-  accx = (package[1] << 8) | package[0];
-  accy = (package[3] << 8) | package[2];
-  accz = (package[5] << 8) | package[4];
-
-  Radio_Transmit(package);  //fc:subRoutine Radio_Transmit
-
-  TxSPI[0] = W_REGISTER(CONFIG);
-  TxSPI[1] = 0x3F;  // Enable RX
-  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
-  HAL_SPI_Transmit(&hspi1, TxSPI, 2, 100);  //fc:middleware "Enable RX on nRF"
-  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
+    counter++;
+  }
+  else
+  {
+    __asm__("BKPT");
+  }
 
   TIM2->SR = 0;  //fc:process "Clear interrupt flag"
-  HAL_GPIO_WritePin(CE_GPIO_Port, CE_Pin, GPIO_PIN_SET); //fc:middleware "CE to HIGH"
-
 }  //fc:startStop return
+
+// task 2
+// Period 4 s
+void TIM21_IRQHandler(void)
+{
+  char fifo_status;
+  do
+  {
+    fifo_status = FIFO_Read(package, 6);
+
+    Radio_Transmit(package);  //fc:subRoutine Radio_Transmit
+
+    /*TxSPI[0] = W_REGISTER(CONFIG);
+     TxSPI[1] = 0x3F;  // Enable RX
+     HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
+     HAL_SPI_Transmit(&hspi1, TxSPI, 2, 100);  //fc:middleware "Enable RX on nRF"
+     HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_SET);
+
+     HAL_GPIO_WritePin(CE_GPIO_Port, CE_Pin, GPIO_PIN_SET);  //fc:middleware "CE to HIGH"*/
+
+  }
+  while(fifo_status == FIFO_OK);
+  counter2++;
+
+  TIM21->SR = 0;  //fc:process "Clear interrupt flag"
+}
+
+void FIFO_Init(void)
+{
+  FIFO_head = 0;
+  FIFO_tail = 0;
+}
+
+int FIFO_Write(uint8_t *new, uint8_t size)
+{
+  for(int i = 0; i < size; i++)
+  {
+    if(FIFO_head == ((FIFO_tail - 1 + FIFO_SIZE) % FIFO_SIZE))
+    {
+      return FIFO_FULL; /* Queue Full*/
+    }
+
+    FIFO_buffer[FIFO_head] = *(new + i);
+
+    FIFO_head = (FIFO_head + 1) % FIFO_SIZE;
+  }
+
+  return FIFO_OK;  // No errors
+}
+
+int FIFO_Read(uint8_t *old, uint8_t size)
+{
+  for(int i = 0; i < size; i++)
+  {
+    if(FIFO_head == FIFO_tail)
+    {
+      return FIFO_EMPTY; /* Queue Empty - nothing to get*/
+    }
+
+    *(old + i) = FIFO_buffer[FIFO_tail];
+
+    FIFO_tail = (FIFO_tail + 1) % FIFO_SIZE;
+  }
+
+  return FIFO_OK;  // No errors
+}
 
 /* USER CODE END 4 */
 

@@ -25,7 +25,7 @@
          <Encoding>1</Encoding>
          <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\stm32l0xx_it.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>93</ScrollPos>
+         <ScrollPos>0</ScrollPos>
         </__.1>
         <__.2>
          <BookmarkList></BookmarkList>
@@ -37,15 +37,15 @@
         </__.2>
         <__.3>
          <BookmarkList></BookmarkList>
-         <CaretPos>16633</CaretPos>
+         <CaretPos>10481</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\main.c</FileName>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>540</ScrollPos>
+         <ScrollPos>270</ScrollPos>
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>2554</CaretPos>
+         <CaretPos>2263</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Startup\startup_stm32l010rbtx.s</FileName>
          <FileType>0</FileType>
@@ -53,11 +53,11 @@
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>10481</CaretPos>
+         <CaretPos>19244</CaretPos>
          <Encoding>1</Encoding>
-         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</FileName>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\main.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>270</ScrollPos>
+         <ScrollPos>616</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
@@ -132,7 +132,7 @@
        <RectPosLeft>60</RectPosLeft>
        <RectPosRight>360</RectPosRight>
        <RectPosTop>30</RectPosTop>
-       <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativeFileName>
+       <RelativeFileName>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativeFileName>
       </Editor.2>
       <Editor.3>
        <FileBarIndex>3</FileBarIndex>
@@ -140,7 +140,7 @@
        <RectPosLeft>80</RectPosLeft>
        <RectPosRight>380</RectPosRight>
        <RectPosTop>40</RectPosTop>
-       <RelativeFileName>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativeFileName>
+       <RelativeFileName>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativeFileName>
       </Editor.3>
       <Editor.4>
        <FileBarIndex>4</FileBarIndex>
@@ -148,27 +148,19 @@
        <RectPosLeft>100</RectPosLeft>
        <RectPosRight>400</RectPosRight>
        <RectPosTop>50</RectPosTop>
-       <RelativeFileName>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativeFileName>
-      </Editor.4>
-      <Editor.5>
-       <FileBarIndex>5</FileBarIndex>
-       <RectPosBottom>360</RectPosBottom>
-       <RectPosLeft>120</RectPosLeft>
-       <RectPosRight>420</RectPosRight>
-       <RectPosTop>60</RectPosTop>
        <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativeFileName>
-      </Editor.5>
+      </Editor.4>
       <EditorHistoryFile.0>
-       <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\gcode.h</RelativeFileName>
+       <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFileName>
       </EditorHistoryFile.0>
       <EditorHistoryFile.1>
-       <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFileName>
+       <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\bedlevel\abl\G29.cpp</RelativeFileName>
       </EditorHistoryFile.1>
       <EditorHistoryFile.2>
-       <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\bedlevel\abl\G29.cpp</RelativeFileName>
+       <RelativeFileName>C:\users\jernej\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r\wirish\start.S</RelativeFileName>
       </EditorHistoryFile.2>
       <EditorHistoryFile.3>
-       <RelativeFileName>C:\users\jernej\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r\wirish\start.S</RelativeFileName>
+       <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativeFileName>
       </EditorHistoryFile.3>
      </Documents.0>
      <Watches>
@@ -202,16 +194,16 @@
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\gcode.h</RelativeFilePath>
+        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFilePath>
+        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\bedlevel\abl\G29.cpp</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\bedlevel\abl\G29.cpp</RelativeFilePath>
+        <RelativeFilePath>C:\users\jernej\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r\wirish\start.S</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>C:\users\jernej\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r\wirish\start.S</RelativeFilePath>
+        <RelativeFilePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -235,47 +227,39 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>106</ViewId>
-        <ViewType>SFR</ViewType>
-       </__.0>
-       <__.1>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
+       </__.0>
+       <__.1>
+        <ViewId>4</ViewId>
+        <ViewType>This</ViewType>
        </__.1>
        <__.10>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
        </__.10>
-       <__.11>
-        <ViewId>108</ViewId>
-        <ViewType>Document</ViewType>
-       </__.11>
-       <__.12>
-        <ViewId>109</ViewId>
-        <ViewType>Document</ViewType>
-       </__.12>
        <__.2>
-        <ViewId>4</ViewId>
-        <ViewType>This</ViewType>
-       </__.2>
-       <__.3>
         <ViewId>5</ViewId>
         <ViewType>CustomWatch</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>103</ViewId>
+        <ViewType>Document</ViewType>
        </__.3>
        <__.4>
-        <ViewId>103</ViewId>
+        <ViewId>104</ViewId>
         <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>104</ViewId>
+        <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>105</ViewId>
+        <ViewId>108</ViewId>
         <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>107</ViewId>
+        <ViewId>109</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
@@ -287,6 +271,48 @@
         <ViewType>Output_Progress</ViewType>
        </__.9>
       </AllViewBaseData>
+      <CoreRegisterViews>
+       <__.0>
+        <ShowHex>false</ShowHex>
+        <ViewId>-1</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>60</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>134</Width>
+         </__.1>
+        </ColumnData>
+       </__.0>
+      </CoreRegisterViews>
+      <DissasemblyViews>
+       <__.0>
+        <ViewId>-1</ViewId>
+        <ViewType>Disassembly</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>155</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>155</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>205</Width>
+         </__.2>
+        </ColumnData>
+       </__.0>
+      </DissasemblyViews>
       <DocumentViews>
        <__.0>
         <RelativePath>..\STM32CubeIDE\Core\Src\main.c</RelativePath>
@@ -299,26 +325,68 @@
         <ViewType>Document</ViewType>
        </__.1>
        <__.2>
-        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativePath>
-        <ViewId>105</ViewId>
-        <ViewType>Document</ViewType>
-       </__.2>
-       <__.3>
         <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativePath>
         <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
-       </__.3>
-       <__.4>
+       </__.2>
+       <__.3>
         <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativePath>
         <ViewId>108</ViewId>
         <ViewType>Document</ViewType>
-       </__.4>
-       <__.5>
+       </__.3>
+       <__.4>
         <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativePath>
         <ViewId>109</ViewId>
         <ViewType>Document</ViewType>
-       </__.5>
+       </__.4>
       </DocumentViews>
+      <MemoryViews>
+       <__.0>
+        <Name>Memory</Name>
+        <ViewId>-1</ViewId>
+        <ViewType>Memory</ViewType>
+        <AreaPersistInfo>
+         <Address>0x0</Address>
+         <AddressOffset>0x0</AddressOffset>
+         <AddressStr></AddressStr>
+         <DisplayMode>0</DisplayMode>
+         <IsFloatLowFirst>false</IsFloatLowFirst>
+         <IsIntLowFirst>false</IsIntLowFirst>
+         <IsRealTime>false</IsRealTime>
+        </AreaPersistInfo>
+        <PerAreaPersistInfo>
+         <__.0>
+          <MemArea>0</MemArea>
+          <Info>
+           <Address>0x8000DEE</Address>
+           <AddressOffset>0x8000DE0</AddressOffset>
+           <AddressStr>0x08000dee</AddressStr>
+           <DisplayMode>2</DisplayMode>
+           <IsFloatLowFirst>true</IsFloatLowFirst>
+           <IsIntLowFirst>true</IsIntLowFirst>
+           <IsRealTime>false</IsRealTime>
+          </Info>
+         </__.0>
+        </PerAreaPersistInfo>
+        <WndData>
+         <Address>0x8000DE0</Address>
+         <Bits>8</Bits>
+         <DisplayMode>2</DisplayMode>
+         <High>0xFFFFFFFF</High>
+         <LimitMAUsPerLine>None</LimitMAUsPerLine>
+         <Low>0x0</Low>
+         <RealTime>false</RealTime>
+         <StrAddress>0x08000dee</StrAddress>
+         <SwapFloat>true</SwapFloat>
+         <SwapInt>true</SwapInt>
+         <Area>
+          <Addr>0x0</Addr>
+          <Area>0</Area>
+          <Type>Core</Type>
+         </Area>
+        </WndData>
+       </__.0>
+      </MemoryViews>
       <OtherViews>
        <__.0>
         <ViewId>1</ViewId>
@@ -384,7 +452,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>106</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -415,7 +483,7 @@
         </ColumnData>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>CC1IE</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -425,69 +493,68 @@
             <Options>1</Options>
             <ChildItems>
              <__.0>
-              <Name>General Purpose Registers</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>Cortex-M0 Core Registers</Name>
-                <Options>1</Options>
-                <ChildItems>
-                 <__.0>
-                  <Name>IPSR Interrupt PSR</Name>
-                  <Options>1</Options>
-                 </__.0>
-                </ChildItems>
-               </__.0>
-              </ChildItems>
+              <Name>Flash</Name>
+              <Options>4</Options>
              </__.0>
              <__.1>
-              <Name>NVIC</Name>
+              <Name>TIM2</Name>
               <Options>1</Options>
               <ChildItems>
                <__.0>
-                <Name>IPR5</Name>
-                <Options>4</Options>
-               </__.0>
-              </ChildItems>
-             </__.1>
-             <__.2>
-              <Name>MPU</Name>
-              <Options>4</Options>
-             </__.2>
-             <__.3>
-              <Name>SCB</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>CPUID</Name>
+                <Name>CR1</Name>
                 <Options>4</Options>
                </__.0>
                <__.1>
-                <Name>ICSR</Name>
+                <Name>DIER</Name>
                 <Options>1</Options>
                 <ChildItems>
                  <__.0>
-                  <Name>VECTACTIVE</Name>
+                  <Name>TDE</Name>
                   <Options>4</Options>
                  </__.0>
                 </ChildItems>
                </__.1>
-               <__.2>
-                <Name>SHPR3</Name>
-                <Options>1</Options>
-                <ChildItems>
-                 <__.0>
-                  <Name>PRI_14</Name>
-                  <Options>4</Options>
-                 </__.0>
-                </ChildItems>
-               </__.2>
               </ChildItems>
+             </__.1>
+             <__.2>
+              <Name>TIM21</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>ARR</Name>
+                <Options>1</Options>
+               </__.0>
+              </ChildItems>
+             </__.2>
+             <__.3>
+              <Name>NVIC</Name>
+              <Options>1</Options>
              </__.3>
             </ChildItems>
            </__.0>
           </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Cortex-M0,STM32L010xB</Name>
+            </__.1>
+            <__.2>
+             <Name>TIM2</Name>
+            </__.2>
+            <__.3>
+             <Name>DIER</Name>
+            </__.3>
+            <__.4>
+             <Name>CC1IE</Name>
+            </__.4>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </SfrViews>
@@ -607,7 +674,7 @@
           <IsRealTimeEnabled>true</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>RxSPI</Name>
+            <Name>timeStamp</Name>
             <ExpressionDisplay>
              <Color>false</Color>
              <ColorBack>16777215</ColorBack>
@@ -631,10 +698,10 @@
             </ExpressionDisplay>
            </__.1>
            <__.2>
-            <Name>test</Name>
+            <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -643,10 +710,10 @@
             </ExpressionDisplay>
            </__.2>
            <__.3>
-            <Name>tmp_package</Name>
+            <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -654,61 +721,13 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.3>
-           <__.4>
-            <Name>package</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.4>
-           <__.5>
-            <Name>accx</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.5>
-           <__.6>
-            <Name>accy</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.6>
-           <__.7>
-            <Name>accz</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.7>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>RxSPI</Name>
+            <Name>timeStamp</Name>
             <ExpressionDisplay>
              <Color>false</Color>
              <ColorBack>16777215</ColorBack>
@@ -732,10 +751,10 @@
             </ExpressionDisplay>
            </__.1>
            <__.2>
-            <Name>test</Name>
+            <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -744,10 +763,10 @@
             </ExpressionDisplay>
            </__.2>
            <__.3>
-            <Name>tmp_package</Name>
+            <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -755,54 +774,6 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.3>
-           <__.4>
-            <Name>package</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.4>
-           <__.5>
-            <Name>accx</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.5>
-           <__.6>
-            <Name>accy</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.6>
-           <__.7>
-            <Name>accz</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.7>
           </Variables>
          </WatchPaneData.0>
          <WatchPaneData.1>
@@ -827,8 +798,8 @@
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>868</Bottom>
-         <Left>2020</Left>
-         <Right>3044</Right>
+         <Left>100</Left>
+         <Right>1124</Right>
          <Top>100</Top>
         </Bounds>
         <Dock>
@@ -853,7 +824,7 @@
            <Children>
             <__.0>
              <DockType>View</DockType>
-             <Extent>0.25</Extent>
+             <Extent>0.180571</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
@@ -863,7 +834,7 @@
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.375</Extent>
+             <Extent>0.819429</Extent>
              <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
@@ -899,7 +870,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>105</ViewId>
+               <ViewId>107</ViewId>
               </__.2>
               <__.3>
                <DockType>Document</DockType>
@@ -909,7 +880,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>107</ViewId>
+               <ViewId>108</ViewId>
               </__.3>
               <__.4>
                <DockType>Document</DockType>
@@ -919,30 +890,10 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>108</ViewId>
-              </__.4>
-              <__.5>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
                <ViewId>109</ViewId>
-              </__.5>
+              </__.4>
              </Children>
             </__.1>
-            <__.2>
-             <DockType>View</DockType>
-             <Extent>0.375</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>106</ViewId>
-            </__.2>
            </Children>
           </__.0>
           <__.1>
@@ -994,7 +945,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>4</TopTabViewId>
+             <TopTabViewId>3</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -1041,16 +992,16 @@
      <FileHistory>
       <FileHistoryEntries>
        <__.0>
-        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\gcode.h</RelativeFilePath>
+        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFilePath>
        </__.0>
        <__.1>
-        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFilePath>
+        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\bedlevel\abl\G29.cpp</RelativeFilePath>
        </__.1>
        <__.2>
-        <RelativeFilePath>..\..\..\Marlin\Marlin\src\gcode\bedlevel\abl\G29.cpp</RelativeFilePath>
+        <RelativeFilePath>C:\users\jernej\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r\wirish\start.S</RelativeFilePath>
        </__.2>
        <__.3>
-        <RelativeFilePath>C:\users\jernej\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r\wirish\start.S</RelativeFilePath>
+        <RelativeFilePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativeFilePath>
        </__.3>
       </FileHistoryEntries>
      </FileHistory>
@@ -1074,47 +1025,39 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>106</ViewId>
-        <ViewType>SFR</ViewType>
-       </__.0>
-       <__.1>
         <ViewId>3</ViewId>
         <ViewType>Locals</ViewType>
+       </__.0>
+       <__.1>
+        <ViewId>4</ViewId>
+        <ViewType>This</ViewType>
        </__.1>
        <__.10>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
        </__.10>
-       <__.11>
-        <ViewId>108</ViewId>
-        <ViewType>Document</ViewType>
-       </__.11>
-       <__.12>
-        <ViewId>109</ViewId>
-        <ViewType>Document</ViewType>
-       </__.12>
        <__.2>
-        <ViewId>4</ViewId>
-        <ViewType>This</ViewType>
-       </__.2>
-       <__.3>
         <ViewId>5</ViewId>
         <ViewType>CustomWatch</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>103</ViewId>
+        <ViewType>Document</ViewType>
        </__.3>
        <__.4>
-        <ViewId>103</ViewId>
+        <ViewId>104</ViewId>
         <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>104</ViewId>
+        <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>105</ViewId>
+        <ViewId>108</ViewId>
         <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>107</ViewId>
+        <ViewId>109</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
@@ -1126,6 +1069,48 @@
         <ViewType>Output_Progress</ViewType>
        </__.9>
       </AllViewBaseData>
+      <CoreRegisterViews>
+       <__.0>
+        <ShowHex>false</ShowHex>
+        <ViewId>-1</ViewId>
+        <ViewType>CoreRegisters</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>60</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>134</Width>
+         </__.1>
+        </ColumnData>
+       </__.0>
+      </CoreRegisterViews>
+      <DissasemblyViews>
+       <__.0>
+        <ViewId>-1</ViewId>
+        <ViewType>Disassembly</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>155</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>155</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>205</Width>
+         </__.2>
+        </ColumnData>
+       </__.0>
+      </DissasemblyViews>
       <DocumentViews>
        <__.0>
         <RelativePath>..\STM32CubeIDE\Core\Src\main.c</RelativePath>
@@ -1138,26 +1123,68 @@
         <ViewType>Document</ViewType>
        </__.1>
        <__.2>
-        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c</RelativePath>
-        <ViewId>105</ViewId>
-        <ViewType>Document</ViewType>
-       </__.2>
-       <__.3>
         <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_it.c</RelativePath>
         <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
-       </__.3>
-       <__.4>
+       </__.2>
+       <__.3>
         <RelativePath>..\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</RelativePath>
         <ViewId>108</ViewId>
         <ViewType>Document</ViewType>
-       </__.4>
-       <__.5>
+       </__.3>
+       <__.4>
         <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativePath>
         <ViewId>109</ViewId>
         <ViewType>Document</ViewType>
-       </__.5>
+       </__.4>
       </DocumentViews>
+      <MemoryViews>
+       <__.0>
+        <Name>Memory</Name>
+        <ViewId>-1</ViewId>
+        <ViewType>Memory</ViewType>
+        <AreaPersistInfo>
+         <Address>0x0</Address>
+         <AddressOffset>0x0</AddressOffset>
+         <AddressStr></AddressStr>
+         <DisplayMode>0</DisplayMode>
+         <IsFloatLowFirst>false</IsFloatLowFirst>
+         <IsIntLowFirst>false</IsIntLowFirst>
+         <IsRealTime>false</IsRealTime>
+        </AreaPersistInfo>
+        <PerAreaPersistInfo>
+         <__.0>
+          <MemArea>0</MemArea>
+          <Info>
+           <Address>0x8000DEE</Address>
+           <AddressOffset>0x8000DE0</AddressOffset>
+           <AddressStr>0x08000dee</AddressStr>
+           <DisplayMode>2</DisplayMode>
+           <IsFloatLowFirst>true</IsFloatLowFirst>
+           <IsIntLowFirst>true</IsIntLowFirst>
+           <IsRealTime>false</IsRealTime>
+          </Info>
+         </__.0>
+        </PerAreaPersistInfo>
+        <WndData>
+         <Address>0x8000DE0</Address>
+         <Bits>8</Bits>
+         <DisplayMode>2</DisplayMode>
+         <High>0xFFFFFFFF</High>
+         <LimitMAUsPerLine>None</LimitMAUsPerLine>
+         <Low>0x0</Low>
+         <RealTime>false</RealTime>
+         <StrAddress>0x08000dee</StrAddress>
+         <SwapFloat>true</SwapFloat>
+         <SwapInt>true</SwapInt>
+         <Area>
+          <Addr>0x0</Addr>
+          <Area>0</Area>
+          <Type>Core</Type>
+         </Area>
+        </WndData>
+       </__.0>
+      </MemoryViews>
       <OtherViews>
        <__.0>
         <ViewId>1</ViewId>
@@ -1223,7 +1250,7 @@
         <CustomSfrName></CustomSfrName>
         <IsCustomSfr>false</IsCustomSfr>
         <RealTimeUpdate>false</RealTimeUpdate>
-        <ViewId>106</ViewId>
+        <ViewId>-1</ViewId>
         <ViewType>SFR</ViewType>
         <ColumnData>
          <__.0>
@@ -1254,7 +1281,7 @@
         </ColumnData>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems></SelectedItems>
+         <SelectedItems>CC1IE</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -1264,69 +1291,68 @@
             <Options>1</Options>
             <ChildItems>
              <__.0>
-              <Name>General Purpose Registers</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>Cortex-M0 Core Registers</Name>
-                <Options>1</Options>
-                <ChildItems>
-                 <__.0>
-                  <Name>IPSR Interrupt PSR</Name>
-                  <Options>1</Options>
-                 </__.0>
-                </ChildItems>
-               </__.0>
-              </ChildItems>
+              <Name>Flash</Name>
+              <Options>4</Options>
              </__.0>
              <__.1>
-              <Name>NVIC</Name>
+              <Name>TIM2</Name>
               <Options>1</Options>
               <ChildItems>
                <__.0>
-                <Name>IPR5</Name>
-                <Options>4</Options>
-               </__.0>
-              </ChildItems>
-             </__.1>
-             <__.2>
-              <Name>MPU</Name>
-              <Options>4</Options>
-             </__.2>
-             <__.3>
-              <Name>SCB</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>CPUID</Name>
+                <Name>CR1</Name>
                 <Options>4</Options>
                </__.0>
                <__.1>
-                <Name>ICSR</Name>
+                <Name>DIER</Name>
                 <Options>1</Options>
                 <ChildItems>
                  <__.0>
-                  <Name>VECTACTIVE</Name>
+                  <Name>TDE</Name>
                   <Options>4</Options>
                  </__.0>
                 </ChildItems>
                </__.1>
-               <__.2>
-                <Name>SHPR3</Name>
-                <Options>1</Options>
-                <ChildItems>
-                 <__.0>
-                  <Name>PRI_14</Name>
-                  <Options>4</Options>
-                 </__.0>
-                </ChildItems>
-               </__.2>
               </ChildItems>
+             </__.1>
+             <__.2>
+              <Name>TIM21</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>ARR</Name>
+                <Options>1</Options>
+               </__.0>
+              </ChildItems>
+             </__.2>
+             <__.3>
+              <Name>NVIC</Name>
+              <Options>1</Options>
              </__.3>
             </ChildItems>
            </__.0>
           </ChildItems>
          </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>Cortex-M0,STM32L010xB</Name>
+            </__.1>
+            <__.2>
+             <Name>TIM2</Name>
+            </__.2>
+            <__.3>
+             <Name>DIER</Name>
+            </__.3>
+            <__.4>
+             <Name>CC1IE</Name>
+            </__.4>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
         </TreeState>
        </__.0>
       </SfrViews>
@@ -1446,7 +1472,7 @@
           <IsRealTimeEnabled>true</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>RxSPI</Name>
+            <Name>timeStamp</Name>
             <ExpressionDisplay>
              <Color>false</Color>
              <ColorBack>16777215</ColorBack>
@@ -1470,10 +1496,10 @@
             </ExpressionDisplay>
            </__.1>
            <__.2>
-            <Name>test</Name>
+            <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -1482,10 +1508,10 @@
             </ExpressionDisplay>
            </__.2>
            <__.3>
-            <Name>tmp_package</Name>
+            <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -1493,61 +1519,13 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.3>
-           <__.4>
-            <Name>package</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.4>
-           <__.5>
-            <Name>accx</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.5>
-           <__.6>
-            <Name>accy</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.6>
-           <__.7>
-            <Name>accz</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.7>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>RxSPI</Name>
+            <Name>timeStamp</Name>
             <ExpressionDisplay>
              <Color>false</Color>
              <ColorBack>16777215</ColorBack>
@@ -1571,10 +1549,10 @@
             </ExpressionDisplay>
            </__.1>
            <__.2>
-            <Name>test</Name>
+            <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -1583,10 +1561,10 @@
             </ExpressionDisplay>
            </__.2>
            <__.3>
-            <Name>tmp_package</Name>
+            <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
+             <ColorBack>16769216</ColorBack>
              <ColorText>0</ColorText>
              <Enabled>false</Enabled>
              <Hi>100</Hi>
@@ -1594,54 +1572,6 @@
              <Scale>Linear</Scale>
             </ExpressionDisplay>
            </__.3>
-           <__.4>
-            <Name>package</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.4>
-           <__.5>
-            <Name>accx</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.5>
-           <__.6>
-            <Name>accy</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.6>
-           <__.7>
-            <Name>accz</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16769216</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.7>
           </Variables>
          </WatchPaneData.0>
          <WatchPaneData.1>
@@ -1666,8 +1596,8 @@
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>868</Bottom>
-         <Left>2020</Left>
-         <Right>3044</Right>
+         <Left>100</Left>
+         <Right>1124</Right>
          <Top>100</Top>
         </Bounds>
         <Dock>
@@ -1692,7 +1622,7 @@
            <Children>
             <__.0>
              <DockType>View</DockType>
-             <Extent>0.25</Extent>
+             <Extent>0.180571</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
@@ -1702,7 +1632,7 @@
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.375</Extent>
+             <Extent>0.819429</Extent>
              <IsDocumentPane>true</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
@@ -1738,7 +1668,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>105</ViewId>
+               <ViewId>107</ViewId>
               </__.2>
               <__.3>
                <DockType>Document</DockType>
@@ -1748,7 +1678,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>107</ViewId>
+               <ViewId>108</ViewId>
               </__.3>
               <__.4>
                <DockType>Document</DockType>
@@ -1758,30 +1688,10 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>108</ViewId>
-              </__.4>
-              <__.5>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
                <ViewId>109</ViewId>
-              </__.5>
+              </__.4>
              </Children>
             </__.1>
-            <__.2>
-             <DockType>View</DockType>
-             <Extent>0.375</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>106</ViewId>
-            </__.2>
            </Children>
           </__.0>
           <__.1>
@@ -1833,7 +1743,7 @@
              <IsPinned>false</IsPinned>
              <IsTabbed>true</IsTabbed>
              <Orientation>None</Orientation>
-             <TopTabViewId>4</TopTabViewId>
+             <TopTabViewId>3</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
@@ -2107,6 +2017,13 @@
       </FindInFiles>
      </GlobalData>
      <History>
+      <Combo>
+       <ID.10>
+        <Data.0>
+         <__>0x08000000</__>
+        </Data.0>
+       </ID.10>
+      </Combo>
      </History>
      <Info>
       <winIDEA>Build 9.17.188</winIDEA>
@@ -2137,7 +2054,7 @@
        </ShortcutScript.3>
       </Environment>
       <MemoryWindow>
-       <Default8bitMAUDisplayOptions>0</Default8bitMAUDisplayOptions>
+       <Default8bitMAUDisplayOptions>2</Default8bitMAUDisplayOptions>
       </MemoryWindow>
       <ProjectWindow>
        <Symbols>
