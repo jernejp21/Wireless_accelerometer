@@ -45,7 +45,7 @@
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
-         <CaretPos>2263</CaretPos>
+         <CaretPos>2668</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Startup\startup_stm32l010rbtx.s</FileName>
          <FileType>0</FileType>
@@ -53,19 +53,19 @@
         </__.4>
         <__.5>
          <BookmarkList></BookmarkList>
-         <CaretPos>19244</CaretPos>
+         <CaretPos>20499</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\main.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>616</ScrollPos>
+         <ScrollPos>662</ScrollPos>
         </__.5>
         <__.6>
          <BookmarkList></BookmarkList>
-         <CaretPos>3226</CaretPos>
+         <CaretPos>5854</CaretPos>
          <Encoding>1</Encoding>
          <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Core\Src\stm32l0xx_hal_msp.c</FileName>
          <FileType>1</FileType>
-         <ScrollPos>67</ScrollPos>
+         <ScrollPos>207</ScrollPos>
         </__.6>
         <__.7>
          <BookmarkList></BookmarkList>
@@ -75,6 +75,14 @@
          <FileType>1</FileType>
          <ScrollPos>1249</ScrollPos>
         </__.7>
+        <__.8>
+         <BookmarkList></BookmarkList>
+         <CaretPos>205006</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>D:\GitHub\Wireless_accelerometer\Transmitter\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>6249</ScrollPos>
+        </__.8>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -150,6 +158,14 @@
        <RectPosTop>50</RectPosTop>
        <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c</RelativeFileName>
       </Editor.4>
+      <Editor.5>
+       <FileBarIndex>5</FileBarIndex>
+       <RectPosBottom>360</RectPosBottom>
+       <RectPosLeft>120</RectPosLeft>
+       <RectPosRight>420</RectPosRight>
+       <RectPosTop>60</RectPosTop>
+       <RelativeFileName>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c</RelativeFileName>
+      </Editor.5>
       <EditorHistoryFile.0>
        <RelativeFileName>..\..\..\Marlin\Marlin\src\gcode\motion\G0_G1.cpp</RelativeFileName>
       </EditorHistoryFile.0>
@@ -227,48 +243,64 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>112</ViewId>
+        <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>4</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>111</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.1>
        <__.10>
+        <ViewId>2</ViewId>
+        <ViewType>Output</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>102</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.11>
+       <__.12>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.10>
+       </__.12>
+       <__.13>
+        <ViewId>114</ViewId>
+        <ViewType>Document</ViewType>
+       </__.13>
+       <__.14>
+        <ViewId>115</ViewId>
+        <ViewType>Custom_SFR</ViewType>
+       </__.14>
        <__.2>
-        <ViewId>5</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
        </__.2>
        <__.3>
-        <ViewId>103</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>4</ViewId>
+        <ViewType>This</ViewType>
        </__.3>
        <__.4>
-        <ViewId>104</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>5</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.4>
        <__.5>
-        <ViewId>107</ViewId>
+        <ViewId>103</ViewId>
         <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>108</ViewId>
+        <ViewId>104</ViewId>
         <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>109</ViewId>
+        <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>2</ViewId>
-        <ViewType>Output</ViewType>
+        <ViewId>108</ViewId>
+        <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>102</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>109</ViewId>
+        <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -292,7 +324,7 @@
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>111</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -308,7 +340,7 @@
          <__.2>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>205</Width>
+          <Width>300</Width>
          </__.2>
         </ColumnData>
        </__.0>
@@ -339,11 +371,16 @@
         <ViewId>109</ViewId>
         <ViewType>Document</ViewType>
        </__.4>
+       <__.5>
+        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c</RelativePath>
+        <ViewId>114</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>-1</ViewId>
+        <ViewId>112</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -358,9 +395,9 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x8000DEE</Address>
-           <AddressOffset>0x8000DE0</AddressOffset>
-           <AddressStr>0x08000dee</AddressStr>
+           <Address>0x2000208C</Address>
+           <AddressOffset>0x20002080</AddressOffset>
+           <AddressStr>0x2000208c</AddressStr>
            <DisplayMode>2</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
            <IsIntLowFirst>true</IsIntLowFirst>
@@ -369,14 +406,14 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x8000DE0</Address>
+         <Address>0x20002080</Address>
          <Bits>8</Bits>
          <DisplayMode>2</DisplayMode>
          <High>0xFFFFFFFF</High>
          <LimitMAUsPerLine>None</LimitMAUsPerLine>
          <Low>0x0</Low>
          <RealTime>false</RealTime>
-         <StrAddress>0x08000dee</StrAddress>
+         <StrAddress>0x2000208c</StrAddress>
          <SwapFloat>true</SwapFloat>
          <SwapInt>true</SwapInt>
          <Area>
@@ -408,6 +445,10 @@
         <ViewId>-1</ViewId>
         <ViewType>Watch4</ViewType>
        </__.4>
+       <__.5>
+        <ViewId>-1</ViewId>
+        <ViewType>Callstack</ViewType>
+       </__.5>
       </OtherViews>
       <OutputViews>
        <__.0>
@@ -483,7 +524,7 @@
         </ColumnData>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>CC1IE</SelectedItems>
+         <SelectedItems>TIM21</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -493,43 +534,25 @@
             <Options>1</Options>
             <ChildItems>
              <__.0>
-              <Name>Flash</Name>
-              <Options>4</Options>
-             </__.0>
-             <__.1>
               <Name>TIM2</Name>
               <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>CCR3</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.0>
+             <__.1>
+              <Name>TIM21</Name>
+              <Options>5</Options>
               <ChildItems>
                <__.0>
                 <Name>CR1</Name>
                 <Options>4</Options>
                </__.0>
-               <__.1>
-                <Name>DIER</Name>
-                <Options>1</Options>
-                <ChildItems>
-                 <__.0>
-                  <Name>TDE</Name>
-                  <Options>4</Options>
-                 </__.0>
-                </ChildItems>
-               </__.1>
               </ChildItems>
              </__.1>
-             <__.2>
-              <Name>TIM21</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>ARR</Name>
-                <Options>1</Options>
-               </__.0>
-              </ChildItems>
-             </__.2>
-             <__.3>
-              <Name>NVIC</Name>
-              <Options>1</Options>
-             </__.3>
             </ChildItems>
            </__.0>
           </ChildItems>
@@ -544,19 +567,102 @@
              <Name>Cortex-M0,STM32L010xB</Name>
             </__.1>
             <__.2>
-             <Name>TIM2</Name>
+             <Name>TIM21</Name>
             </__.2>
-            <__.3>
-             <Name>DIER</Name>
-            </__.3>
-            <__.4>
-             <Name>CC1IE</Name>
-            </__.4>
            </Segments>
           </__.0>
          </SelectedItemPaths>
         </TreeState>
        </__.0>
+       <__.1>
+        <CustomSfrName>Timers</CustomSfrName>
+        <IsCustomSfr>true</IsCustomSfr>
+        <RealTimeUpdate>false</RealTimeUpdate>
+        <ViewId>115</ViewId>
+        <ViewType>Custom_SFR</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>200</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems>ARR</SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>TIM2</Name>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>DMAR</Name>
+              <Options>4</Options>
+             </__.0>
+            </ChildItems>
+           </__.0>
+           <__.1>
+            <Name>TIM21</Name>
+            <Options>5</Options>
+            <ChildItems>
+             <__.0>
+              <Name>CR1</Name>
+              <Options>4</Options>
+             </__.0>
+             <__.1>
+              <Name>EGR</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>TG</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.1>
+            </ChildItems>
+           </__.1>
+          </ChildItems>
+         </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>TIM21</Name>
+            </__.1>
+            <__.2>
+             <Name>ARR</Name>
+            </__.2>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
+        </TreeState>
+       </__.1>
       </SfrViews>
       <VariableViews>
        <__.0>
@@ -586,7 +692,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>0</Width>
          </__.4>
         </ColumnData>
        </__.0>
@@ -617,7 +723,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>0</Width>
          </__.4>
         </ColumnData>
        </__.1>
@@ -631,12 +737,12 @@
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>146</Width>
+          <Width>252</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>174</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
@@ -646,12 +752,12 @@
          <__.3>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>140</Width>
+          <Width>205</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>72</Width>
+          <Width>0</Width>
          </__.4>
         </ColumnData>
         <WatchData>
@@ -674,30 +780,6 @@
           <IsRealTimeEnabled>true</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>timeStamp</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.0>
-           <__.1>
-            <Name>TxSPI</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.1>
-           <__.2>
             <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -708,8 +790,8 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
-           </__.2>
-           <__.3>
+           </__.0>
+           <__.1>
             <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -720,37 +802,97 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>FIFO_head</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
            </__.3>
+           <__.4>
+            <Name>FIFO_head-FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>package[1]&lt;&lt;8|package[0]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>package[3]&lt;&lt;8|package[2]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+           <__.8>
+            <Name>package[5]&lt;&lt;8|package[4]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.8>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>timeStamp</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.0>
-           <__.1>
-            <Name>TxSPI</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.1>
-           <__.2>
             <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -761,8 +903,8 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
-           </__.2>
-           <__.3>
+           </__.0>
+           <__.1>
             <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -773,7 +915,91 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>FIFO_head</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
            </__.3>
+           <__.4>
+            <Name>FIFO_head-FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>package[1]&lt;&lt;8|package[0]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>package[3]&lt;&lt;8|package[2]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+           <__.8>
+            <Name>package[5]&lt;&lt;8|package[4]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.8>
           </Variables>
          </WatchPaneData.0>
          <WatchPaneData.1>
@@ -793,13 +1019,13 @@
       <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>104</FocusedViewId>
+        <FocusedViewId>103</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
+         <Left>2020</Left>
+         <Right>3044</Right>
          <Top>100</Top>
         </Bounds>
         <Dock>
@@ -808,178 +1034,242 @@
          <IsDocumentPane>false</IsDocumentPane>
          <IsPinned>false</IsPinned>
          <IsTabbed>false</IsTabbed>
-         <Orientation>Vertical</Orientation>
+         <Orientation>Horizontal</Orientation>
          <TopTabViewId>-1</TopTabViewId>
          <ViewId>-1</ViewId>
          <Children>
           <__.0>
            <DockType>None</DockType>
-           <Extent>0.7</Extent>
+           <Extent>0.660471</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
+           <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
-             <Extent>0.180571</Extent>
+             <DockType>None</DockType>
+             <Extent>0.7</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
-             <Orientation>None</Orientation>
+             <Orientation>Horizontal</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>1</ViewId>
-            </__.0>
-            <__.1>
-             <DockType>None</DockType>
-             <Extent>0.819429</Extent>
-             <IsDocumentPane>true</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>104</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>View</DockType>
+               <Extent>0.180571</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>103</ViewId>
+               <ViewId>1</ViewId>
               </__.0>
               <__.1>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
+               <DockType>None</DockType>
+               <Extent>0.477903</Extent>
+               <IsDocumentPane>true</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>104</ViewId>
+               <TopTabViewId>103</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>103</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>104</ViewId>
+                </__.1>
+                <__.2>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>107</ViewId>
+                </__.2>
+                <__.3>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>108</ViewId>
+                </__.3>
+                <__.4>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>109</ViewId>
+                </__.4>
+                <__.5>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>114</ViewId>
+                </__.5>
+               </Children>
               </__.1>
               <__.2>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>View</DockType>
+               <Extent>0.341526</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
+               <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>107</ViewId>
+               <ViewId>115</ViewId>
               </__.2>
-              <__.3>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+             </Children>
+            </__.0>
+            <__.1>
+             <DockType>None</DockType>
+             <Extent>0.3</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Horizontal</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>None</DockType>
+               <Extent>0.4</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>102</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>2</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>102</ViewId>
+                </__.1>
+               </Children>
+              </__.0>
+              <__.1>
+               <DockType>None</DockType>
+               <Extent>0.103448</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>3</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>3</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>4</ViewId>
+                </__.1>
+               </Children>
+              </__.1>
+              <__.2>
+               <DockType>View</DockType>
+               <Extent>0.496552</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
+               <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>108</ViewId>
-              </__.3>
-              <__.4>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>109</ViewId>
-              </__.4>
+               <ViewId>5</ViewId>
+              </__.2>
              </Children>
             </__.1>
            </Children>
           </__.0>
           <__.1>
            <DockType>None</DockType>
-           <Extent>0.3</Extent>
+           <Extent>0.339529</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
+           <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
-             <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>102</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>2</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>102</ViewId>
-              </__.1>
-             </Children>
-            </__.0>
-            <__.1>
-             <DockType>None</DockType>
-             <Extent>0.3</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>3</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>3</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>4</ViewId>
-              </__.1>
-             </Children>
-            </__.1>
-            <__.2>
              <DockType>View</DockType>
-             <Extent>0.3</Extent>
+             <Extent>0.5</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
              <Orientation>Vertical</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>5</ViewId>
-            </__.2>
+             <ViewId>111</ViewId>
+            </__.0>
+            <__.1>
+             <DockType>View</DockType>
+             <Extent>0.5</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>112</ViewId>
+            </__.1>
            </Children>
           </__.1>
          </Children>
@@ -1025,48 +1315,64 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>3</ViewId>
-        <ViewType>Locals</ViewType>
+        <ViewId>112</ViewId>
+        <ViewType>Memory</ViewType>
        </__.0>
        <__.1>
-        <ViewId>4</ViewId>
-        <ViewType>This</ViewType>
+        <ViewId>111</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.1>
        <__.10>
+        <ViewId>2</ViewId>
+        <ViewType>Output</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>102</ViewId>
+        <ViewType>Output_Progress</ViewType>
+       </__.11>
+       <__.12>
         <ViewId>1</ViewId>
         <ViewType>Symbols</ViewType>
-       </__.10>
+       </__.12>
+       <__.13>
+        <ViewId>114</ViewId>
+        <ViewType>Document</ViewType>
+       </__.13>
+       <__.14>
+        <ViewId>115</ViewId>
+        <ViewType>Custom_SFR</ViewType>
+       </__.14>
        <__.2>
-        <ViewId>5</ViewId>
-        <ViewType>CustomWatch</ViewType>
+        <ViewId>3</ViewId>
+        <ViewType>Locals</ViewType>
        </__.2>
        <__.3>
-        <ViewId>103</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>4</ViewId>
+        <ViewType>This</ViewType>
        </__.3>
        <__.4>
-        <ViewId>104</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>5</ViewId>
+        <ViewType>CustomWatch</ViewType>
        </__.4>
        <__.5>
-        <ViewId>107</ViewId>
+        <ViewId>103</ViewId>
         <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>108</ViewId>
+        <ViewId>104</ViewId>
         <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>109</ViewId>
+        <ViewId>107</ViewId>
         <ViewType>Document</ViewType>
        </__.7>
        <__.8>
-        <ViewId>2</ViewId>
-        <ViewType>Output</ViewType>
+        <ViewId>108</ViewId>
+        <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>102</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>109</ViewId>
+        <ViewType>Document</ViewType>
        </__.9>
       </AllViewBaseData>
       <CoreRegisterViews>
@@ -1090,7 +1396,7 @@
       </CoreRegisterViews>
       <DissasemblyViews>
        <__.0>
-        <ViewId>-1</ViewId>
+        <ViewId>111</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -1106,7 +1412,7 @@
          <__.2>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>205</Width>
+          <Width>300</Width>
          </__.2>
         </ColumnData>
        </__.0>
@@ -1137,11 +1443,16 @@
         <ViewId>109</ViewId>
         <ViewType>Document</ViewType>
        </__.4>
+       <__.5>
+        <RelativePath>..\STM32CubeIDE\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tim.c</RelativePath>
+        <ViewId>114</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
       </DocumentViews>
       <MemoryViews>
        <__.0>
         <Name>Memory</Name>
-        <ViewId>-1</ViewId>
+        <ViewId>112</ViewId>
         <ViewType>Memory</ViewType>
         <AreaPersistInfo>
          <Address>0x0</Address>
@@ -1156,9 +1467,9 @@
          <__.0>
           <MemArea>0</MemArea>
           <Info>
-           <Address>0x8000DEE</Address>
-           <AddressOffset>0x8000DE0</AddressOffset>
-           <AddressStr>0x08000dee</AddressStr>
+           <Address>0x2000208C</Address>
+           <AddressOffset>0x20002080</AddressOffset>
+           <AddressStr>0x2000208c</AddressStr>
            <DisplayMode>2</DisplayMode>
            <IsFloatLowFirst>true</IsFloatLowFirst>
            <IsIntLowFirst>true</IsIntLowFirst>
@@ -1167,14 +1478,14 @@
          </__.0>
         </PerAreaPersistInfo>
         <WndData>
-         <Address>0x8000DE0</Address>
+         <Address>0x20002080</Address>
          <Bits>8</Bits>
          <DisplayMode>2</DisplayMode>
          <High>0xFFFFFFFF</High>
          <LimitMAUsPerLine>None</LimitMAUsPerLine>
          <Low>0x0</Low>
          <RealTime>false</RealTime>
-         <StrAddress>0x08000dee</StrAddress>
+         <StrAddress>0x2000208c</StrAddress>
          <SwapFloat>true</SwapFloat>
          <SwapInt>true</SwapInt>
          <Area>
@@ -1206,6 +1517,10 @@
         <ViewId>-1</ViewId>
         <ViewType>Watch4</ViewType>
        </__.4>
+       <__.5>
+        <ViewId>-1</ViewId>
+        <ViewType>Callstack</ViewType>
+       </__.5>
       </OtherViews>
       <OutputViews>
        <__.0>
@@ -1281,7 +1596,7 @@
         </ColumnData>
         <TreeState>
          <ReorderItems>false</ReorderItems>
-         <SelectedItems>CC1IE</SelectedItems>
+         <SelectedItems>TIM21</SelectedItems>
          <RootItem>
           <Name></Name>
           <Options>0</Options>
@@ -1291,43 +1606,25 @@
             <Options>1</Options>
             <ChildItems>
              <__.0>
-              <Name>Flash</Name>
-              <Options>4</Options>
-             </__.0>
-             <__.1>
               <Name>TIM2</Name>
               <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>CCR3</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.0>
+             <__.1>
+              <Name>TIM21</Name>
+              <Options>5</Options>
               <ChildItems>
                <__.0>
                 <Name>CR1</Name>
                 <Options>4</Options>
                </__.0>
-               <__.1>
-                <Name>DIER</Name>
-                <Options>1</Options>
-                <ChildItems>
-                 <__.0>
-                  <Name>TDE</Name>
-                  <Options>4</Options>
-                 </__.0>
-                </ChildItems>
-               </__.1>
               </ChildItems>
              </__.1>
-             <__.2>
-              <Name>TIM21</Name>
-              <Options>1</Options>
-              <ChildItems>
-               <__.0>
-                <Name>ARR</Name>
-                <Options>1</Options>
-               </__.0>
-              </ChildItems>
-             </__.2>
-             <__.3>
-              <Name>NVIC</Name>
-              <Options>1</Options>
-             </__.3>
             </ChildItems>
            </__.0>
           </ChildItems>
@@ -1342,19 +1639,102 @@
              <Name>Cortex-M0,STM32L010xB</Name>
             </__.1>
             <__.2>
-             <Name>TIM2</Name>
+             <Name>TIM21</Name>
             </__.2>
-            <__.3>
-             <Name>DIER</Name>
-            </__.3>
-            <__.4>
-             <Name>CC1IE</Name>
-            </__.4>
            </Segments>
           </__.0>
          </SelectedItemPaths>
         </TreeState>
        </__.0>
+       <__.1>
+        <CustomSfrName>Timers</CustomSfrName>
+        <IsCustomSfr>true</IsCustomSfr>
+        <RealTimeUpdate>false</RealTimeUpdate>
+        <ViewId>115</ViewId>
+        <ViewType>Custom_SFR</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>200</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.2>
+         <__.3>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.3>
+         <__.4>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.4>
+        </ColumnData>
+        <TreeState>
+         <ReorderItems>false</ReorderItems>
+         <SelectedItems>ARR</SelectedItems>
+         <RootItem>
+          <Name></Name>
+          <Options>0</Options>
+          <ChildItems>
+           <__.0>
+            <Name>TIM2</Name>
+            <Options>1</Options>
+            <ChildItems>
+             <__.0>
+              <Name>DMAR</Name>
+              <Options>4</Options>
+             </__.0>
+            </ChildItems>
+           </__.0>
+           <__.1>
+            <Name>TIM21</Name>
+            <Options>5</Options>
+            <ChildItems>
+             <__.0>
+              <Name>CR1</Name>
+              <Options>4</Options>
+             </__.0>
+             <__.1>
+              <Name>EGR</Name>
+              <Options>1</Options>
+              <ChildItems>
+               <__.0>
+                <Name>TG</Name>
+                <Options>4</Options>
+               </__.0>
+              </ChildItems>
+             </__.1>
+            </ChildItems>
+           </__.1>
+          </ChildItems>
+         </RootItem>
+         <SelectedItemPaths>
+          <__.0>
+           <Segments>
+            <__.0>
+             <Name></Name>
+            </__.0>
+            <__.1>
+             <Name>TIM21</Name>
+            </__.1>
+            <__.2>
+             <Name>ARR</Name>
+            </__.2>
+           </Segments>
+          </__.0>
+         </SelectedItemPaths>
+        </TreeState>
+       </__.1>
       </SfrViews>
       <VariableViews>
        <__.0>
@@ -1384,7 +1764,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>0</Width>
          </__.4>
         </ColumnData>
        </__.0>
@@ -1415,7 +1795,7 @@
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>0</Width>
          </__.4>
         </ColumnData>
        </__.1>
@@ -1429,12 +1809,12 @@
          <__.0>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>146</Width>
+          <Width>252</Width>
          </__.0>
          <__.1>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>98</Width>
+          <Width>174</Width>
          </__.1>
          <__.2>
           <Pos>0</Pos>
@@ -1444,12 +1824,12 @@
          <__.3>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>140</Width>
+          <Width>205</Width>
          </__.3>
          <__.4>
           <Pos>0</Pos>
           <Visible>true</Visible>
-          <Width>72</Width>
+          <Width>0</Width>
          </__.4>
         </ColumnData>
         <WatchData>
@@ -1472,30 +1852,6 @@
           <IsRealTimeEnabled>true</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>timeStamp</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.0>
-           <__.1>
-            <Name>TxSPI</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.1>
-           <__.2>
             <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -1506,8 +1862,8 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
-           </__.2>
-           <__.3>
+           </__.0>
+           <__.1>
             <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -1518,37 +1874,97 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>FIFO_head</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
            </__.3>
+           <__.4>
+            <Name>FIFO_head-FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>package[1]&lt;&lt;8|package[0]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>package[3]&lt;&lt;8|package[2]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+           <__.8>
+            <Name>package[5]&lt;&lt;8|package[4]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.8>
           </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
           <Variables>
            <__.0>
-            <Name>timeStamp</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.0>
-           <__.1>
-            <Name>TxSPI</Name>
-            <ExpressionDisplay>
-             <Color>false</Color>
-             <ColorBack>16777215</ColorBack>
-             <ColorText>0</ColorText>
-             <Enabled>false</Enabled>
-             <Hi>100</Hi>
-             <Lo>0</Lo>
-             <Scale>Linear</Scale>
-            </ExpressionDisplay>
-           </__.1>
-           <__.2>
             <Name>counter</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -1559,8 +1975,8 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
-           </__.2>
-           <__.3>
+           </__.0>
+           <__.1>
             <Name>counter2</Name>
             <ExpressionDisplay>
              <Color>false</Color>
@@ -1571,7 +1987,91 @@
              <Lo>0</Lo>
              <Scale>Linear</Scale>
             </ExpressionDisplay>
+           </__.1>
+           <__.2>
+            <Name>FIFO_head</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.2>
+           <__.3>
+            <Name>FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
            </__.3>
+           <__.4>
+            <Name>FIFO_head-FIFO_tail</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16777215</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.4>
+           <__.5>
+            <Name>package</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.5>
+           <__.6>
+            <Name>package[1]&lt;&lt;8|package[0]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.6>
+           <__.7>
+            <Name>package[3]&lt;&lt;8|package[2]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.7>
+           <__.8>
+            <Name>package[5]&lt;&lt;8|package[4]</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>100</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.8>
           </Variables>
          </WatchPaneData.0>
          <WatchPaneData.1>
@@ -1591,13 +2091,13 @@
       <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>104</FocusedViewId>
+        <FocusedViewId>103</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>868</Bottom>
-         <Left>100</Left>
-         <Right>1124</Right>
+         <Left>2020</Left>
+         <Right>3044</Right>
          <Top>100</Top>
         </Bounds>
         <Dock>
@@ -1606,178 +2106,242 @@
          <IsDocumentPane>false</IsDocumentPane>
          <IsPinned>false</IsPinned>
          <IsTabbed>false</IsTabbed>
-         <Orientation>Vertical</Orientation>
+         <Orientation>Horizontal</Orientation>
          <TopTabViewId>-1</TopTabViewId>
          <ViewId>-1</ViewId>
          <Children>
           <__.0>
            <DockType>None</DockType>
-           <Extent>0.7</Extent>
+           <Extent>0.660471</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
+           <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
-             <Extent>0.180571</Extent>
+             <DockType>None</DockType>
+             <Extent>0.7</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
-             <Orientation>None</Orientation>
+             <Orientation>Horizontal</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>1</ViewId>
-            </__.0>
-            <__.1>
-             <DockType>None</DockType>
-             <Extent>0.819429</Extent>
-             <IsDocumentPane>true</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>104</TopTabViewId>
              <ViewId>-1</ViewId>
              <Children>
               <__.0>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>View</DockType>
+               <Extent>0.180571</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>103</ViewId>
+               <ViewId>1</ViewId>
               </__.0>
               <__.1>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
+               <DockType>None</DockType>
+               <Extent>0.477903</Extent>
+               <IsDocumentPane>true</IsDocumentPane>
                <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
+               <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>104</ViewId>
+               <TopTabViewId>103</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>103</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>104</ViewId>
+                </__.1>
+                <__.2>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>107</ViewId>
+                </__.2>
+                <__.3>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>108</ViewId>
+                </__.3>
+                <__.4>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>109</ViewId>
+                </__.4>
+                <__.5>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>114</ViewId>
+                </__.5>
+               </Children>
               </__.1>
               <__.2>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+               <DockType>View</DockType>
+               <Extent>0.341526</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
+               <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>107</ViewId>
+               <ViewId>115</ViewId>
               </__.2>
-              <__.3>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
+             </Children>
+            </__.0>
+            <__.1>
+             <DockType>None</DockType>
+             <Extent>0.3</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Horizontal</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>None</DockType>
+               <Extent>0.4</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>102</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>2</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>102</ViewId>
+                </__.1>
+               </Children>
+              </__.0>
+              <__.1>
+               <DockType>None</DockType>
+               <Extent>0.103448</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>3</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>3</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>View</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>4</ViewId>
+                </__.1>
+               </Children>
+              </__.1>
+              <__.2>
+               <DockType>View</DockType>
+               <Extent>0.496552</Extent>
                <IsDocumentPane>false</IsDocumentPane>
                <IsPinned>false</IsPinned>
                <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
+               <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>108</ViewId>
-              </__.3>
-              <__.4>
-               <DockType>Document</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>109</ViewId>
-              </__.4>
+               <ViewId>5</ViewId>
+              </__.2>
              </Children>
             </__.1>
            </Children>
           </__.0>
           <__.1>
            <DockType>None</DockType>
-           <Extent>0.3</Extent>
+           <Extent>0.339529</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
+           <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>None</DockType>
-             <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>102</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>2</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>102</ViewId>
-              </__.1>
-             </Children>
-            </__.0>
-            <__.1>
-             <DockType>None</DockType>
-             <Extent>0.3</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>3</TopTabViewId>
-             <ViewId>-1</ViewId>
-             <Children>
-              <__.0>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>3</ViewId>
-              </__.0>
-              <__.1>
-               <DockType>View</DockType>
-               <Extent>1</Extent>
-               <IsDocumentPane>false</IsDocumentPane>
-               <IsPinned>false</IsPinned>
-               <IsTabbed>false</IsTabbed>
-               <Orientation>None</Orientation>
-               <TopTabViewId>-1</TopTabViewId>
-               <ViewId>4</ViewId>
-              </__.1>
-             </Children>
-            </__.1>
-            <__.2>
              <DockType>View</DockType>
-             <Extent>0.3</Extent>
+             <Extent>0.5</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
              <Orientation>Vertical</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>5</ViewId>
-            </__.2>
+             <ViewId>111</ViewId>
+            </__.0>
+            <__.1>
+             <DockType>View</DockType>
+             <Extent>0.5</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Vertical</Orientation>
+             <TopTabViewId>-1</TopTabViewId>
+             <ViewId>112</ViewId>
+            </__.1>
            </Children>
           </__.1>
          </Children>
@@ -1791,6 +2355,19 @@
       <Fetch>
        <Beep>True</Beep>
        <DisplayMessage>True</DisplayMessage>
+       <BP.0>
+        <__>
+         <ActionEnabled>False</ActionEnabled>
+         <ActionScript></ActionScript>
+         <ActionScriptParams></ActionScriptParams>
+         <ActionShow>False</ActionShow>
+         <Active>True</Active>
+         <Condition></Condition>
+         <Condition_Count>0</Condition_Count>
+         <ConditionEnabled>False</ConditionEnabled>
+         <Name>&quot;..\STM32CubeIDE\Core\Src\main.c&quot;::157</Name>
+        </__>
+       </BP.0>
       </Fetch>
      </Breakpoints>
      <Debug>
@@ -2193,7 +2770,7 @@
        <SymbolTips>1</SymbolTips>
       </Memory>
       <SFR>
-       <InitScript></InitScript>
+       <InitScript>timer_period.py</InitScript>
       </SFR>
       <SFR_Tree>
        <Reorder>0</Reorder>
@@ -2215,6 +2792,18 @@
       <Processes>
        <__.0>
         <URL>App/CORE0</URL>
+        <BPs>
+         <__.0>
+          <ActionEnabled>false</ActionEnabled>
+          <ActionParams></ActionParams>
+          <ActionScript></ActionScript>
+          <Condition>false</Condition>
+          <Count>0</Count>
+          <Enabled>true</Enabled>
+          <Expression></Expression>
+          <Location>&quot;..\STM32CubeIDE\Core\Src\main.c&quot;::157</Location>
+         </__.0>
+        </BPs>
        </__.0>
       </Processes>
      </Debug>
